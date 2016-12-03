@@ -10,6 +10,7 @@ _	_	Nom	_	_	Case=Nom
 _	_	Dat	_	_	Case=Dat
 _	_	Gen	_	_	Case=Gen
 _	_	Pres|Ind	_	_	Tense=Pres|Mood=Ind
+_	_	Past|Ind	_	_	Tense=Past|Mood=Ind
 ,	_	_	_	PUNCT	_
 .	_	_	_	PUNCT	_
 _	NN	_	_	NOUN	_
