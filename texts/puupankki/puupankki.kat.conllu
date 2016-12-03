@@ -1,230 +1,105 @@
-1	აქ	_	ADV	ADV	_	3	MD	_	Translit=ak|ADV
-2	მე	_	PRON	PPRN	Case=Nom|Number=Sing|Person=1|PronType=Pers	3	SB	_	Translit=me|PPRN|Nom|1|Sg
-3	ვბრძანებლობ	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=vbrdzaneblob|VVFIN|1|Sg|Pres|Ind
-4	.	_	PUNCT	_	_	3	X	_	Translit=.
+1	აქ	_	ADV	ADV	_	3	advmod	_	Translit=ak|ADV
+2	მე	_	PRON	PPRN	Case=Nom|Number=Sing|Person=1|PronType=Pers	3	nsubj	_	Translit=me|PPRN|Nom|1|Sg
+3	ვბრძანებლობ	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Translit=vbrdzaneblob|VVFIN|1|Sg|Pres|Ind
+4	.	_	PUNCT	_	_	3	punct	_	Translit=.
 
-1	მას	_	PRON	PPRN	Case=Dat|Number=Sing|Person=3|PronType=Pers	3	SB	_	Translit=mas|PPRN|Dat|3|Sg
-2	ყველა	_	PRON	ATPRN	Case=Nom|Number=Plur	3	IO	_	Translit=qʼvela|ATPRN|Nom|Pl
-3	ენდობა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=endoba|VVFIN|3|Pl|Pres|Ind
-4	.	_	PUNCT	_	_	3	X	_	Translit=.
+1	მას	_	PRON	PPRN	Case=Dat|Number=Sing|Person=3|PronType=Pers	3	nsubj	_	Translit=mas|PPRN|Dat|3|Sg
+2	ყველა	_	PRON	ATPRN	Case=Nom|Number=Plur	3	iobj	_	Translit=qʼvela|ATPRN|Nom|Pl
+3	ენდობა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=endoba|VVFIN|3|Pl|Pres|Ind
+4	.	_	PUNCT	_	_	3	punct	_	Translit=.
 
-1	კატა	_	NOUN	NN	Case=Nom|Number=Sing	3	SB	_	Translit=kʼatʼa|NN|Nom|Sg
-2	თაგვებს	_	NOUN	NN	Case=Dat|Number=Plur	3	DO	_	Translit=tagvebs|NN|Dat|Pl
-3	იჭერს	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=ichʼers|VVFIN|3|Pl|Pres|Ind
-4	.	_	PUNCT	_	_	3	X	_	Translit=.
+1	კატა	_	NOUN	NN	Case=Nom|Number=Sing	3	nsubj	_	Translit=kʼatʼa|NN|Nom|Sg
+2	თაგვებს	_	NOUN	NN	Case=Dat|Number=Plur	3	obj	_	Translit=tagvebs|NN|Dat|Pl
+3	იჭერს	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=ichʼers|VVFIN|3|Pl|Pres|Ind
+4	.	_	PUNCT	_	_	3	punct	_	Translit=.
 
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	3	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	მდევრებს	_	NOUN	NN	Case=Dat|Number=Plur	3	IO	_	Translit=mdevrebs|NN|Dat|Pl
-3	გაექცა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=gaektsa|VVFIN|3|Pl|Past|Ind
-4	.	_	PUNCT	_	_	3	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	3	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+2	მდევრებს	_	NOUN	NN	Case=Dat|Number=Plur	3	iobj	_	Translit=mdevrebs|NN|Dat|Pl
+3	გაექცა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=gaektsa|VVFIN|3|Pl|Past|Ind
+4	.	_	PUNCT	_	_	3	punct	_	Translit=.
 
-1	მან	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	SB	_	Translit=man|PPRN|Nom|3|Sg
-2	დევნას	_	NOUN	NN	Case=Dat|Number=Sing	4	IO	_	Translit=devnas|NN|Dat|Sg
-3	თავი	_	NOUN	NN	Case=Nom|Number=Sing	4	DO	_	Translit=tavi|NN|Nom|Sg
-4	დააღწია	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=daaghtsʼia|VVFIN|3|Pl|Past|Ind
-5	.	_	PUNCT	_	_	4	X	_	Translit=.
+1	მან	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	nsubj	_	Translit=man|PPRN|Nom|3|Sg
+2	დევნას	_	NOUN	NN	Case=Dat|Number=Sing	4	iobj	_	Translit=devnas|NN|Dat|Sg
+3	თავი	_	NOUN	NN	Case=Nom|Number=Sing	4	obj	_	Translit=tavi|NN|Nom|Sg
+4	დააღწია	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=daaghtsʼia|VVFIN|3|Pl|Past|Ind
+5	.	_	PUNCT	_	_	4	punct	_	Translit=.
 
-1	წყალდიდობა	_	NOUN	NN	Case=Nom|Number=Sing	4	SB	_	Translit=tsʼqʼaldidoba|NN|Nom|Sg
-2	შედარებით	_	ADV	ADV1	_	3	X	_	Translit=shedarebit|ADV1
-3	ნელა	_	ADV	ADV	_	4	X	_	Translit=nela|ADV
-4	მოვარდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=movarda|VVFIN|3|Sg|Past|Ind
-5	.	_	PUNCT	_	_	4	X	_	Translit=.
+1	ამ	_	PRON	DPRN	Case=Erg|Number=Sing|Person=3|PronType=Dem	2	det	_	Translit=am|DPRN|Nar|3|Sg
+2	წერილმა	_	NOUN	NN	Case=Erg|Number=Sing	3	nsubj	_	Translit=tsʼerilma|NN|Nar|Sg
+3	ააღელვა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=aaghelva|VVFIN|3|Pl|Past|Ind
+4	იგი	_	PRON	PPRN	Case=Nom|Number=Plur|Person=3|PronType=Pers	3	obj	_	Translit=igi|PPRN|Nom|3|Pl
+5	.	_	PUNCT	_	_	3	punct	_	Translit=.
 
-1	ამ	_	PRON	DPRN	Case=Erg|Number=Sing|Person=3|PronType=Dem	2	NK	_	Translit=am|DPRN|Nar|3|Sg
-2	წერილმა	_	NOUN	NN	Case=Erg|Number=Sing	3	NN	_	Translit=tsʼerilma|NN|Nar|Sg
-3	ააღელვა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=aaghelva|VVFIN|3|Pl|Past|Ind
-4	იგი	_	PRON	PPRN	Case=Nom|Number=Plur|Person=3|PronType=Pers	3	DO	_	Translit=igi|PPRN|Nom|3|Pl
-5	.	_	PUNCT	_	_	3	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+2	თავს	_	NOUN	NN	Case=Dat	4	iobj	_	Translit=tavs|NN|Dat|S
+3	ნაკლებად	_	ADV	ADV	_	4	advmod	_	Translit=nakʼlebad|ADV
+4	უფრთხილდება	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=uprtkhildeba|VVFIN|3|Sg|Pres|Ind
+5	.	_	PUNCT	_	_	4	punct	_	Translit=.
 
-1	ისინი	_	PRON	PPRN	Case=Nom|Number=Plur|Person=3|PronType=Pers	3	SB	_	Translit=isini|PPRN|Nom|3|Pl
-2	მასზე	_	PRON	PPRN	Number=Sing|PronType=Pers	3	OO	_	Translit=masze|PPRN|Ppt|Sg
-3	ლაზღანდარობდნენ	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=lazghandarobdnen|VVFIN|3|Pl|Past|Ind
-4	.	_	PUNCT	_	_	3	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Plur|PronType=Pers	4	obj	_	Translit=is|PPRN|Nom|Pl
+2	მისმა	_	PRON	PSPRN	Case=Erg|Number=Sing|PronType=Poss	3	det	_	Translit=misma|PSPRN|Nar|Sg
+3	სიტყვებმა	_	NOUN	NN	Case=Erg|Number=Plur	4	nsubj	_	Translit=sitʼqʼvebma|NN|Nar|Pl
+4	აღაშფოთა	_	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	Translit=aghashpota|VVFIN|3|Pl|Pret
+5	.	_	PUNCT	_	_	4	punct	_	Translit=.
 
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	თავს	_	NOUN	NN	Case=Dat	4	IO	_	Translit=tavs|NN|Dat|S
-3	ნაკლებად	_	ADV	ADV	_	4	MD	_	Translit=nakʼlebad|ADV
-4	უფრთხილდება	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=uprtkhildeba|VVFIN|3|Sg|Pres|Ind
-5	.	_	PUNCT	_	_	4	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+2	გუშინდელიდან	_	ADV	ADV	_	4	advmod	_	Translit=gushindelidan|ADV
+3	ხმამაღლა	_	ADV	ADV	_	4	advmod	_	Translit=khmamaghla|ADV
+4	ბუზღუნებს	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=buzghunebs|VVFIN|3|Sg|Pres|Ind
+5	.	_	PUNCT	_	_	4	punct	_	Translit=.
 
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	5	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	მას	_	PRON	PPRN	Case=Dat|Number=Sing|Person=3|PronType=Pers	5	IO	_	Translit=mas|PPRN|Dat|3|Sg
-3	ძალიან	_	ADV	ADV1	_	4	CJ	_	Translit=dzalian|ADV1
-4	გაცხარებით	_	ADV	ADV	_	5	MD	_	Translit=gatskharebit|ADV
-5	ეპასუხება	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	PRD	_	Translit=epʼasukheba|VVFIN|3|Sg|Pres|Ind
-6	.	_	PUNCT	_	_	5	X	_	Translit=.
+1	მან	_	PRON	PPRN	Case=Erg|Number=Sing|PronType=Pers	3	nsubj	_	Translit=man|PPRN|Nar|Sg
+2	წერილი	_	NOUN	NN	Case=Nom|Number=Sing	3	obj	_	Translit=tsʼerili|NN|Nom|Sg
+3	გამომიგზავნა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=gamomigzavna|VVFIN|3|Sg|Past|Ind
+4	.	_	PUNCT	_	_	3	punct	_	Translit=.
 
-1	მე	_	PRON	PPRN	Case=Nom|Number=Sing|Person=1|PronType=Pers	5	SB	_	Translit=me|PPRN|Nom|1|Sg
-2	მისი	_	PRON	PSPRN	Case=Gen|Number=Sing|Person=3|PronType=Poss	4	NK	_	Translit=misi|PSPRN|Gen|3|Sg
-3	ყველა	_	ADJ	ADJ	Case=Nom|Number=Sing	4	NK	_	Translit=qʼvela|ADJ|Nom|Sg
-4	სიტყვის	_	NOUN	NN	Case=Gen|Number=Sing	5	NN	_	Translit=sitʼqʼvis|NN|Gen|Sg
-5	მჯერა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=mjera|VVFIN|3|Sg|Pres|Ind
-6	.	_	PUNCT	_	_	5	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+2	მას	_	PRON	PPRN	Case=Dat|Number=Sing|Person=3|PronType=Pers	4	obj	_	Translit=mas|PPRN|Dat|3|Sg
+3	ყვავილებით	_	NOUN	NN_INS	Case=Ins|Number=Plur	4	obl	_	Translit=qʼvavilebit|NN_INS|Inst|Pl
+4	ანებივრებს	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=anebivrebs|VVFIN|3|Sg|Pres|Ind
+5	.	_	PUNCT	_	_	4	punct	_	Translit=.
 
-1	მე	_	PRON	PPRN	Case=Nom|Number=Sing|Person=1|PronType=Pers	5	SB	_	Translit=me|PPRN|Nom|1|Sg
-2	მისი	_	PRON	PSPRN	Case=Gen|Number=Sing|Person=3|PronType=Poss	4	NK	_	Translit=misi|PSPRN|Gen|3|Sg
-3	ყველა	_	ADJ	ADJ	Case=Nom|Number=Sing	4	NK	_	Translit=qʼvela|ADJ|Nom|Sg
-4	სიტყვის	_	NOUN	NN	Case=Gen|Number=Sing	5	NN	_	Translit=sitʼqʼvis|NN|Gen|Sg
-5	მჯერა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=mjera|VVFIN|3|Sg|Pres|Ind
-6	.	_	PUNCT	_	_	5	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+2	თხზულებებს	_	NOUN	NN	Case=Dat	4	iobj	_	Translit=tkhzulebebs|NN|Dat|P
+3	კომენტარებს	_	NOUN	NN	Case=Dat|Number=Plur	4	obj	_	Translit=kʼomentʼarebs|NN|Dat|Pl
+4	ურთავდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=urtavda|VVFIN|3|Sg|Past|Ind
+5	.	_	PUNCT	_	_	4	punct	_	Translit=.
 
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	ხარშავს	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=kharshavs|VVFIN|3|Pl|Pres|Ind
-3	სხვადასხვა	_	ADJ	ADJ	Case=Nom|Number=Sing	4	NK	_	Translit=skhvadaskhva|ADJ|Nom|Sg
-4	ბოსტნეულს	_	NOUN	NN	Case=Dat|Number=Plur	2	NN	_	Translit=bostʼneuls|NN|Dat|Pl
-5	.	_	PUNCT	_	_	2	X	_	Translit=.
+1	ისინი	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	nsubj	_	Translit=isini|PPRN|Nom|3|Sg
+2	აანალიზებდნენ	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=aanalizebdnen|VVFIN|3|Pl|Past|Ind
+3	ვითარებას	_	NOUN	NN	Case=Dat	2	obj	_	Translit=vitarebas|NN|Dat|S
+4	ფრონტზე	_	NOUN	NN	Number=Sing	2	obl	_	Translit=prontʼze|NN|Ppt|Sg
+5	.	_	PUNCT	_	_	2	punct	_	Translit=.
 
-1	მან	_	PRON	PPRN	Case=Erg|Number=Sing|Person=3|PronType=Pers	5	SB	_	Translit=man|PPRN|Nar|3|Sg
-2	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	5	DO	_	Translit=is|PPRN|Nom|3|Sg
-3	გუშინ	_	ADV	ADV	_	5	X	_	Translit=gushin|ADV
-4	საღამოს	_	ADV	ADV	_	5	X	_	Translit=saghamos|ADV
-5	ნახა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=nakha|VVFIN|3|Sg|Past|Ind
-6	.	_	PUNCT	_	_	5	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+2	დარბოდა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=darboda|VVFIN|3|Pl|Past|Ind
+3	როგორც	_	PRON	RQPRN	PronType=Recip	5	mark	_	Translit=rogorts|RQPRN
+4	ნამდვილი	_	ADJ	ADJ	Case=Nom|Number=Sing	5	det	_	Translit=namdvili|ADJ|Nom|Sg
+5	მორბენალი	_	NOUN	NN	Case=Nom|Number=Sing	2	advcl	_	Translit=morbenali|NN|Nom|Sg
+6	.	_	PUNCT	_	_	2	punct	_	Translit=.
 
-1	ის	_	PRON	PPRN	Case=Nom|Number=Plur|PronType=Pers	4	DO	_	Translit=is|PPRN|Nom|Pl
-2	მისმა	_	PRON	PSPRN	Case=Erg|Number=Sing|PronType=Poss	3	NK	_	Translit=misma|PSPRN|Nar|Sg
-3	სიტყვებმა	_	NOUN	NN	Case=Erg|Number=Plur	4	SB	_	Translit=sitʼqʼvebma|NN|Nar|Pl
-4	აღაშფოთა	_	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	HD	_	Translit=aghashpota|VVFIN|3|Pl|Pret
-5	.	_	PUNCT	_	_	4	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	9	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+2	მზარეულობს	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=mzareulobs|VVFIN|3|Sg|Pres|Ind
+3	,	_	PUNCT	_	_	13	punct	_	Translit=,
+4	როგორც	_	PRON	RQPRN	PronType=Recip	13	mark	_	Translit=rogorts|RQPRN
+5	მას	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	13	nsubj	_	Translit=mas|PPRN|Nom|3|Sg
+6	შეუძლია	_	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	Translit=sheudzlia|VMFIN|3|Sg|Pres|Ind
+7	.	_	PUNCT	_	_	9	punct	_	Translit=.
 
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	გუშინდელიდან	_	ADV	ADV	_	4	MD	_	Translit=gushindelidan|ADV
-3	ხმამაღლა	_	ADV	ADV	_	4	MD	_	Translit=khmamaghla|ADV
-4	ბუზღუნებს	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=buzghunebs|VVFIN|3|Sg|Pres|Ind
-5	.	_	PUNCT	_	_	4	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+2	ილანძღებოდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=ilandzgheboda|VVFIN|3|Sg|Pres|Ind
+3	,	_	PUNCT	_	_	7	punct	_	Translit=,
+4	რომ	_	SCONJ	SCNJ	_	7	mark	_	Translit=rom|SCNJ
+5	მას	_	PRON	PPRN	Case=Dat|Number=Sing|PronType=Pers	7	iobj	_	Translit=mas|PPRN|Dat|Sg
+6	არავინ	_	PRON	NPRN	Case=Nom|Number=Sing	7	nsubj	_	Translit=aravin|NPRN|Nom|Sg
+7	დაეხმარა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	Translit=daekhmara|VVFIN|3|Sg|Pres|Ind
+8	.	_	PUNCT	_	_	2	punct	_	Translit=.
 
-1	ეს	_	PRON	DPRN	Case=Nom|Number=Sing|Person=3|PronType=Dem	4	SB	_	Translit=es|DPRN|Nom|3|Sg
-2	მის	_	PRON	PSPRN	Case=Dat|Number=Sing|Person=3|PronType=Poss	3	NK	_	Translit=mis|PSPRN|Dat|3|Sg
-3	ღირსებას	_	NOUN	NN	Case=Dat|Number=Sing	4	NK	_	Translit=ghirsebas|NN|Dat|Sg
-4	ლახავს	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=lakhavs|VVFIN|3|Sg|Pres|Ind
-5	.	_	PUNCT	_	_	4	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	თითებით	_	NOUN	NN	Number=Plur	4	OO	_	Translit=titebit|NN|Inst|Pl
-3	მაგიდაზე	_	NOUN	NN	Number=Sing	4	MD	_	Translit=magidaze|NN|Npt|Sg
-4	აბრახუნებდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=abrakhunebda|VVFIN|3|Sg|Past|Ind
-5	.	_	PUNCT	_	_	4	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	6	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	თავის	_	PRON	PSPRN	Case=Dat|Number=Sing|PronType=Poss	3	NK	_	Translit=tavis|PSPRN|Dat|Sg
-3	შვილს	_	NOUN	NN	Case=Dat|Number=Sing	6	NN	_	Translit=shvils|NN|Dat|Sg
-4	სრულიად	_	ADV	ADV1	_	5	CJ	_	Translit=sruliad|ADV1
-5	მარტო	_	ADV	ADV	_	6	MD	_	Translit=martʼo|ADV
-6	ზრდის	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=zrdis|VVFIN|3|Sg|Pres|Ind
-7	.	_	PUNCT	_	_	6	X	_	Translit=.
-
-1	მან	_	PRON	PPRN	Case=Erg|Number=Sing|PronType=Pers	3	SB	_	Translit=man|PPRN|Nar|Sg
-2	წერილი	_	NOUN	NN	Case=Nom|Number=Sing	3	DO	_	Translit=tsʼerili|NN|Nom|Sg
-3	გამომიგზავნა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=gamomigzavna|VVFIN|3|Sg|Past|Ind
-4	.	_	PUNCT	_	_	3	X	_	Translit=.
-
-1	მათ	_	PRON	PPRN	Case=Nom|Number=Plur|Person=3|PronType=Pers	3	SB	_	Translit=mat|PPRN|Nom|3|Pl
-2	იერიში	_	NOUN	NN	Case=Nom|Number=Sing	3	NN	_	Translit=ierishi|NN|Nom|Sg
-3	მიიტანეს	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	PRD	_	Translit=miitʼanes|VVFIN|3|Pl|Past|Ind
-4	მტერზე	_	NOUN	NN	Number=Sing	3	OO	_	Translit=mtʼerze|NN|Npt|Sg
-5	.	_	PUNCT	_	_	3	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	3	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	ხშირად	_	ADV	ADV	_	3	MD	_	Translit=khshirad|ADV
-3	მიდის	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	PRD	_	Translit=midis|VVFIN|3|Sg|Pres|Ind
-4	სასეირნოდ	_	NOUN	NNAB	Case=Abl|Number=Sing	3	MD	_	Translit=saseirnod|NNAB|Abl|Sg
-5	.	_	PUNCT	_	_	3	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	მას	_	PRON	PPRN	Case=Dat|Number=Sing|Person=3|PronType=Pers	4	DO	_	Translit=mas|PPRN|Dat|3|Sg
-3	ყვავილებით	_	NOUN	NN_INS	Case=Ins|Number=Plur	4	OO	_	Translit=qʼvavilebit|NN_INS|Inst|Pl
-4	ანებივრებს	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=anebivrebs|VVFIN|3|Sg|Pres|Ind
-5	.	_	PUNCT	_	_	4	X	_	Translit=.
-
-1	მას	_	PRON	PPRN	PronType=Pers	2	SB	_	Translit=mas|PPRN
-2	შეუძლია	_	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=sheudzlia|VMFIN|3|Sg|Pres|Ind
-3	ძალიან	_	ADV	ADV1	_	5	NK	_	Translit=dzalian|ADV1
-4	ჩქარი	_	ADV	ADV	_	5	NK	_	Translit=chkari|ADV
-5	სირბილი	_	NOUN	NN	Case=Nom|Number=Sing	2	NK	_	Translit=sirbili|NN|Nom|Sg
-6	.	_	PUNCT	_	_	2	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	თხზულებებს	_	NOUN	NN	Case=Dat	4	IO	_	Translit=tkhzulebebs|NN|Dat|P
-3	კომენტარებს	_	NOUN	NN	Case=Dat|Number=Plur	4	DO	_	Translit=kʼomentʼarebs|NN|Dat|Pl
-4	ურთავდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=urtavda|VVFIN|3|Sg|Past|Ind
-5	.	_	PUNCT	_	_	4	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	3	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	აგიტაციას	_	NOUN	NN	Case=Dat|Number=Sing	3	PRDNC	_	Translit=agitʼatsias|NN|Dat|Sg
-3	უწევდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	PRD	_	Translit=utsʼevda|VVFIN|3|Sg|Pres|Ind
-4	მის	_	PRON	PSPRN	Case=Gen|Number=Sing|Person=3|PronType=Poss	5	NK	_	Translit=mis|PSPRN|Gen|3|Sg
-5	იდეებს	_	NOUN	NN	Case=Dat|Number=Plur	3	NN	_	Translit=ideebs|NN|Dat|Pl
-6	.	_	PUNCT	_	_	3	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	3	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	აგიტაციას	_	NOUN	NN	Case=Dat|Number=Sing	3	X	_	Translit=agitʼatsias|NN|Dat|Sg
-3	ეწეოდა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	PRD	_	Translit=etsʼeoda|VVFIN|3|Pl|Pres|Ind
-4	ამ	_	PRON	DPRN	Case=Nom|Number=Sing|PronType=Dem	5	NK	_	Translit=am|DPRN|Nom|Sg
-5	მთავრობის	_	NOUN	NN	Case=Gen|Number=Sing	3	NK_gen	_	Translit=mtavrobis|NN|Gen|Sg
-6	წინააღმდეგ	_	ADP	PPS	Case=Gen	5	PPK	_	Translit=tsʼinaaghmdeg|PPS|Gen
-7	.	_	PUNCT	_	_	3	X	_	Translit=.
-
-1	პოლიციამ	_	NOUN	NN	Case=Erg	3	SB	_	Translit=pʼolitsiam|NN|Nar|S
-2	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	3	DO	_	Translit=is|PPRN|Nom|3|Sg
-3	დააპატიმრა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=daapʼatʼimra|VVFIN|3|Sg|Past|Ind
-4	მკვლელობაში	_	NOUN	NN	Case=Dat|Number=Sing	5	NK	_	Translit=mkʼvlelobashi|NN|Ppt|Dat|Sg
-5	ეჭვის	_	NOUN	NN	Case=Gen|Number=Sing	3	NK	_	Translit=echʼvis|NN|Gen|Sg
-6	გამო	_	ADP	PPS	_	5	NK	_	Translit=gamo|PPS|Ge
-7	.	_	PUNCT	_	_	3	X	_	Translit=.
-
-1	ისინი	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	SB	_	Translit=isini|PPRN|Nom|3|Sg
-2	აანალიზებდნენ	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=aanalizebdnen|VVFIN|3|Pl|Past|Ind
-3	ვითარებას	_	NOUN	NN	Case=Dat	2	DO	_	Translit=vitarebas|NN|Dat|S
-4	ფრონტზე	_	NOUN	NN	Number=Sing	2	MO	_	Translit=prontʼze|NN|Ppt|Sg
-5	.	_	PUNCT	_	_	2	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	დარბოდა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=darboda|VVFIN|3|Pl|Past|Ind
-3	როგორც	_	PRON	RQPRN	PronType=Recip	5	CCNJ	_	Translit=rogorts|RQPRN
-4	ნამდვილი	_	ADJ	ADJ	Case=Nom|Number=Sing	5	NK	_	Translit=namdvili|ADJ|Nom|Sg
-5	მორბენალი	_	NOUN	NN	Case=Nom|Number=Sing	2	NN	_	Translit=morbenali|NN|Nom|Sg
-6	.	_	PUNCT	_	_	2	X	_	Translit=.
-
-1	გჯერა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	SB	_	Translit=gjera|VVFIN|2|Sg|Pres|Ind
-2	შენ	_	PRON	PPRN	Case=Nom|Number=Sing|Person=2|PronType=Pers	1	HD	_	Translit=shen|PPRN|Nom|2|Sg
-3	,	_	PUNCT	_	_	6	X	_	Translit=,
-4	რომ	_	SCONJ	SCNJ	_	6	CJ	_	Translit=rom|SCNJ
-5	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	6	SB	_	Translit=is|PPRN|Nom|3|Sg
-6	მოვა	_	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	HD	_	Translit=mova|VVFIN|3|Sg|Fut|Ind
-7	?	_	PUNCT	_	_	1	X	_	Translit=?
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	მზარეულობს	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=mzareulobs|VVFIN|3|Sg|Pres|Ind
-3	,	_	PUNCT	_	_	6	X	_	Translit=,
-4	როგორც	_	PRON	RQPRN	PronType=Recip	6	CJ	_	Translit=rogorts|RQPRN
-5	მას	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	6	SB	_	Translit=mas|PPRN|Nom|3|Sg
-6	შეუძლია	_	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	HD	_	Translit=sheudzlia|VMFIN|3|Sg|Pres|Ind
-7	.	_	PUNCT	_	_	2	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	ილანძღებოდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=ilandzgheboda|VVFIN|3|Sg|Pres|Ind
-3	,	_	PUNCT	_	_	7	X	_	Translit=,
-4	რომ	_	SCONJ	SCNJ	_	7	SCNJ	_	Translit=rom|SCNJ
-5	მას	_	PRON	PPRN	Case=Dat|Number=Sing|PronType=Pers	7	IO	_	Translit=mas|PPRN|Dat|Sg
-6	არავინ	_	PRON	NPRN	Case=Nom|Number=Sing	7	SB	_	Translit=aravin|NPRN|Nom|Sg
-7	დაეხმარა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	HD	_	Translit=daekhmara|VVFIN|3|Sg|Pres|Ind
-8	.	_	PUNCT	_	_	2	X	_	Translit=.
-
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	SB	_	Translit=is|PPRN|Nom|3|Sg
-2	გარბოდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	HD	_	Translit=garboda|VVFIN|3|Sg|Past|Ind
-3	,	_	PUNCT	_	_	6	X	_	Translit=,
-4	რაც	_	PRON	RQPRN	PronType=Recip	6	CJ	_	Translit=rats|RQPRN
-5	მას	_	PRON	PPRN	Case=Dat|Number=Sing|Person=3|PronType=Pers	6	SB	_	Translit=mas|PPRN|Dat|3|Sg
-6	შეეძლო	_	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	HD	_	Translit=sheedzlo|VMFIN|3|Sg|Past|Ind
-7	.	_	PUNCT	_	_	2	X	_	Translit=.
-
-1	მას	_	PRON	PPRN	Case=Dat|Number=Sing|Person=3|PronType=Pers	2	SB	_	Translit=mas|PPRN|Dat|3|Sg
-2	აწუხებს	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	Translit=atsʼukhebs|VVFIN|3|Sg|Pres|Ind
-3	,	_	PUNCT	_	_	8	X	_	Translit=,
-4	რომ	_	SCONJ	SCNJ	_	8	CJ	_	Translit=rom|SCNJ
-5	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	8	SB	_	Translit=is|PPRN|Nom|3|Sg
-6	ისევ	_	ADV	ADV	_	7	CJ	_	Translit=isev|ADV
-7	ავად	_	ADV	ADV	_	8	PRD	_	Translit=avad|ADV
-8	არის	_	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	X	_	Translit=aris|VMFIN|3|Sg|Pres|Ind
-9	.	_	PUNCT	_	_	8	X	_	Translit=.
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+2	გარბოდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=garboda|VVFIN|3|Sg|Past|Ind
+3	,	_	PUNCT	_	_	6	punct	_	Translit=,
+4	რაც	_	PRON	RQPRN	PronType=Recip	6	mark	_	Translit=rats|RQPRN
+5	მას	_	PRON	PPRN	Case=Dat|Number=Sing|Person=3|PronType=Pers	6	nsubj	_	Translit=mas|PPRN|Dat|3|Sg
+6	შეეძლო	_	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	Translit=sheedzlo|VMFIN|3|Sg|Past|Ind
+7	.	_	PUNCT	_	_	2	punct	_	Translit=.
 
