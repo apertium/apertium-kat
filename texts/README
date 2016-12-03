@@ -1,0 +1,7 @@
+Files:
+
+grug.vislcg		The GRUG Georgian portion in CG format with corrected dependencies
+grug.cg3		Conversion for the function labels
+grug.vislcg.txt		Result of the conversion
+puupankki.kat.feats	POS and feature conversion table
+puupankki/		Conversion in CoNLL-U format and in Apertium tagged format
