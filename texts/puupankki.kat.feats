@@ -8,6 +8,7 @@ _	_	Sg	_	_	Number=Sing
 _	_	Pl	_	_	Number=Plur
 _	_	Nom	_	_	Case=Nom
 _	_	Dat	_	_	Case=Dat
+_	_	Nar	_	_	Case=Erg
 _	_	Gen	_	_	Case=Gen
 _	_	Pres|Ind	_	_	Tense=Pres|Mood=Ind
 _	_	Past|Ind	_	_	Tense=Past|Mood=Ind

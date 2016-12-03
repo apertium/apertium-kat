@@ -54,9 +54,9 @@
 "<წყალდიდობა>"
 	"_" NN Nom Sg @SB #1->4
 "<შედარებით>"
-	"_" ADV1 @X #2->
+	"_" ADV1 @X #2->3
 "<ნელა>"
-	"_" ADV @X #3->
+	"_" ADV @X #3->4
 "<მოვარდა>"
 	"_" VVFIN 3 Sg Past Ind @HD #4->0
 "<.>"
@@ -76,9 +76,9 @@
 
 #GRUG/GEO/go6.tig
 "<ამ>"
-	"_" DPRN Nar 3 Sg @NK #1->
+	"_" DPRN Nar 3 Sg @NK #1->2
 "<წერილმა>"
-	"_" NN Nar Sg @NN #2->
+	"_" NN Nar Sg @NN #2->3
 "<ააღელვა>"
 	"_" VVFIN 3 Pl Past Ind @HD #3->0
 "<იგი>"
@@ -110,269 +110,269 @@
 
 #GRUG/GEO/go9.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->5
 "<მას>"
-	"_" PPRN Dat 3 Sg @IO #2->
+	"_" PPRN Dat 3 Sg @IO #2->5
 "<ძალიან>"
-	"_" ADV1 @CJ #3->
+	"_" ADV1 @CJ #3->4
 "<გაცხარებით>"
-	"_" ADV @MD #4->
+	"_" ADV @MD #4->5
 "<ეპასუხება>"
-	"_" VVFIN 3 Sg Pres Ind @PRD #5->
+	"_" VVFIN 3 Sg Pres Ind @PRD #5->0
 "<.>"
-	"_" $. @X #6->
+	"_" $. @X #6->5
 
 #GRUG/GEO/go9.tig
 "<მე>"
-	"_" PPRN Nom 1 Sg @SB #1->
+	"_" PPRN Nom 1 Sg @SB #1->5
 "<მისი>"
-	"_" PSPRN Gen 3 Sg @NK #2->
+	"_" PSPRN Gen 3 Sg @NK #2->4
 "<ყველა>"
-	"_" ADJ Nom Sg @NK #3->
+	"_" ADJ Nom Sg @NK #3->4
 "<სიტყვის>"
-	"_" NN Gen Sg @NN #4->
+	"_" NN Gen Sg @NN #4->5
 "<მჯერა>"
 	"_" VVFIN 3 Sg Pres Ind @HD #5->0
 "<.>"
-	"_" $. @X #6->
+	"_" $. @X #6->5
 
 #GRUG/GEO/go10.tig
 "<მე>"
-	"_" PPRN Nom 1 Sg @SB #1->
+	"_" PPRN Nom 1 Sg @SB #1->5
 "<მისი>"
-	"_" PSPRN Gen 3 Sg @NK #2->
+	"_" PSPRN Gen 3 Sg @NK #2->4
 "<ყველა>"
-	"_" ADJ Nom Sg @NK #3->
+	"_" ADJ Nom Sg @NK #3->4
 "<სიტყვის>"
-	"_" NN Gen Sg @NN #4->
+	"_" NN Gen Sg @NN #4->5
 "<მჯერა>"
 	"_" VVFIN 3 Sg Pres Ind @HD #5->0
 "<.>"
-	"_" $. @X #6->
+	"_" $. @X #6->5
 
 #GRUG/GEO/go11.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->2
 "<ხარშავს>"
 	"_" VVFIN 3 Pl Pres Ind @HD #2->0
 "<სხვადასხვა>"
-	"_" ADJ Nom Sg @NK #3->
+	"_" ADJ Nom Sg @NK #3->4
 "<ბოსტნეულს>"
-	"_" NN Dat Pl @NN #4->
+	"_" NN Dat Pl @NN #4->2
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->2
 
 #GRUG/GEO/go12.tig
 "<მან>"
-	"_" PPRN Nar 3 Sg @SB #1->
+	"_" PPRN Nar 3 Sg @SB #1->5
 "<ის>"
-	"_" PPRN Nom 3 Sg @DO #2->
+	"_" PPRN Nom 3 Sg @DO #2->5
 "<გუშინ>"
-	"_" ADV @X #3->
+	"_" ADV @X #3->5
 "<საღამოს>"
-	"_" ADV @X #4->
+	"_" ADV @X #4->5
 "<ნახა>"
 	"_" VVFIN 3 Sg Past Ind @HD #5->0
 "<.>"
-	"_" $. @X #6->
+	"_" $. @X #6->5
 
 #GRUG/GEO/go13.tig
 "<ის>"
-	"_" PPRN Nom Pl @DO #1->
+	"_" PPRN Nom Pl @DO #1->4
 "<მისმა>"
-	"_" PSPRN Nar Sg @NK #2->
+	"_" PSPRN Nar Sg @NK #2->3
 "<სიტყვებმა>"
-	"_" NN Nar Pl @NK #3->
+	"_" NN Nar Pl @SB #3->4
 "<აღაშფოთა>"
 	"_" VVFIN 3 Pl Pret @HD #4->0
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->4
 
 #GRUG/GEO/go14.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->4
 "<გუშინდელიდან>"
-	"_" ADV @MD #2->
+	"_" ADV @MD #2->4
 "<ხმამაღლა>"
-	"_" ADV @MD #3->
+	"_" ADV @MD #3->4
 "<ბუზღუნებს>"
 	"_" VVFIN 3 Sg Pres Ind @HD #4->0
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->4
 
 #GRUG/GEO/go15.tig
 "<ეს>"
-	"_" DPRN Nom 3 Sg @SB #1->
+	"_" DPRN Nom 3 Sg @SB #1->4
 "<მის>"
-	"_" PSPRN Dat 3 Sg @NK #2->
+	"_" PSPRN Dat 3 Sg @NK #2->3
 "<ღირსებას>"
-	"_" NN Dat Sg @NK #3->
+	"_" NN Dat Sg @NK #3->4
 "<ლახავს>"
 	"_" VVFIN 3 Sg Pres Ind @HD #4->0
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->4
 
 #GRUG/GEO/go16.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->4
 "<თითებით>"
-	"_" NN Inst Pl @OO #2->
+	"_" NN Inst Pl @OO #2->4
 "<მაგიდაზე>"
-	"_" NN Npt Sg @MD #3->
+	"_" NN Npt Sg @MD #3->4
 "<აბრახუნებდა>"
 	"_" VVFIN 3 Sg Past Ind @HD #4->0
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->4
 
 #GRUG/GEO/go17.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->6
 "<თავის>"
-	"_" PSPRN Dat Sg @NK #2->
+	"_" PSPRN Dat Sg @NK #2->3
 "<შვილს>"
-	"_" NN Dat Sg @NN #3->
+	"_" NN Dat Sg @NN #3->6
 "<სრულიად>"
-	"_" ADV1 @CJ #4->
+	"_" ADV1 @CJ #4->5
 "<მარტო>"
-	"_" ADV @MD #5->
+	"_" ADV @MD #5->6
 "<ზრდის>"
 	"_" VVFIN 3 Sg Pres Ind @HD #6->0
 "<.>"
-	"_" $. @X #7->
+	"_" $. @X #7->6
 
 #GRUG/GEO/go18.tig
 "<მან>"
-	"_" PPRN Nar Sg @SB #1->
+	"_" PPRN Nar Sg @SB #1->3
 "<წერილი>"
-	"_" NN Nom Sg @DO #2->
+	"_" NN Nom Sg @DO #2->3
 "<გამომიგზავნა>"
 	"_" VVFIN 3 Sg Past Ind @HD #3->0
 "<.>"
-	"_" $. @X #4->
+	"_" $. @X #4->3
 
 #GRUG/GEO/go19.tig
 "<მათ>"
-	"_" PPRN Nom 3 Pl @SB #1->
+	"_" PPRN Nom 3 Pl @SB #1->3
 "<იერიში>"
-	"_" NN Nom Sg @NN #2->
+	"_" NN Nom Sg @NN #2->3
 "<მიიტანეს>"
-	"_" VVFIN 3 Pl Past Ind @PRD #3->
+	"_" VVFIN 3 Pl Past Ind @PRD #3->0
 "<მტერზე>"
-	"_" NN Npt Sg @OO #4->
+	"_" NN Npt Sg @OO #4->3
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->3
 
 #GRUG/GEO/go20.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->3
 "<ხშირად>"
-	"_" ADV @MD #2->
+	"_" ADV @MD #2->3
 "<მიდის>"
-	"_" VVFIN 3 Sg Pres Ind @PRD #3->
+	"_" VVFIN 3 Sg Pres Ind @PRD #3->0
 "<სასეირნოდ>"
-	"_" NNAB Abl Sg @MD #4->
+	"_" NNAB Abl Sg @MD #4->3
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->3
 
 #GRUG/GEO/go21.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->4
 "<მას>"
-	"_" PPRN Dat 3 Sg @DO #2->
+	"_" PPRN Dat 3 Sg @DO #2->4
 "<ყვავილებით>"
-	"_" NN_INS Inst Pl @OO #3->
+	"_" NN_INS Inst Pl @OO #3->4
 "<ანებივრებს>"
 	"_" VVFIN 3 Sg Pres Ind @HD #4->0
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->4
 
 #GRUG/GEO/go22.tig
 "<მას>"
-	"_" PPRN @SB #1->
+	"_" PPRN @SB #1->2
 "<შეუძლია>"
 	"_" VMFIN 3 Sg Pres Ind @HD #2->0
 "<ძალიან>"
-	"_" ADV1 @NK #3->
+	"_" ADV1 @NK #3->5
 "<ჩქარი>"
-	"_" ADV @NK #4->
+	"_" ADV @NK #4->5
 "<სირბილი>"
-	"_" NN Nom Sg @NK #5->
+	"_" NN Nom Sg @NK #5->2
 "<.>"
-	"_" $. @X #6->
+	"_" $. @X #6->2
 
 #GRUG/GEO/go23.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->4
 "<თხზულებებს>"
-	"_" NN Dat P @IO #2->
+	"_" NN Dat P @IO #2->4
 "<კომენტარებს>"
-	"_" NN Dat Pl @DO #3->
+	"_" NN Dat Pl @DO #3->4
 "<ურთავდა>"
 	"_" VVFIN 3 Sg Past Ind @HD #4->0
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->4
 
 #GRUG/GEO/go24.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->3
 "<აგიტაციას>"
-	"_" NN Dat Sg @PRDNC #2->
+	"_" NN Dat Sg @PRDNC #2->3
 "<უწევდა>"
-	"_" VVFIN 3 Sg Pres Ind @PRD #3->
+	"_" VVFIN 3 Sg Pres Ind @PRD #3->0
 "<მის>"
-	"_" PSPRN Gen 3 Sg @NK #4->
+	"_" PSPRN Gen 3 Sg @NK #4->5
 "<იდეებს>"
-	"_" NN Dat Pl @NN #5->
+	"_" NN Dat Pl @NN #5->3
 "<.>"
-	"_" $. @X #6->
+	"_" $. @X #6->3
 
 #GRUG/GEO/go25.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->3
 "<აგიტაციას>"
-	"_" NN Dat Sg @X #2->
+	"_" NN Dat Sg @X #2->3
 "<ეწეოდა>"
-	"_" VVFIN 3 Pl Pres Ind @PRD #3->
+	"_" VVFIN 3 Pl Pres Ind @PRD #3->0
 "<ამ>"
-	"_" DPRN Nom Sg @NK #4->
+	"_" DPRN Nom Sg @NK #4->5
 "<მთავრობის>"
-	"_" NN Gen Sg @NK_gen #5->
+	"_" NN Gen Sg @NK_gen #5->3
 "<წინააღმდეგ>"
-	"_" PPS Gen @PPK #6->
+	"_" PPS Gen @PPK #6->5
 "<.>"
-	"_" $. @X #7->
+	"_" $. @X #7->3
 
 #GRUG/GEO/go26.tig
 "<პოლიციამ>"
-	"_" NN Nar S @SB #1->
+	"_" NN Nar S @SB #1->3
 "<ის>"
-	"_" PPRN Nom 3 Sg @DO #2->
+	"_" PPRN Nom 3 Sg @DO #2->3
 "<დააპატიმრა>"
 	"_" VVFIN 3 Sg Past Ind @HD #3->0
 "<მკვლელობაში>"
-	"_" NN Ppt Dat Sg @NK #4->
+	"_" NN Ppt Dat Sg @NK #4->5
 "<ეჭვის>"
-	"_" NN Gen Sg @NK #5->
+	"_" NN Gen Sg @NK #5->3
 "<გამო>"
-	"_" PPS Ge @NK #6->
+	"_" PPS Ge @NK #6->5
 "<.>"
-	"_" $. @X #7->
+	"_" $. @X #7->3
 
 #GRUG/GEO/go27.tig
 "<ისინი>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->2
 "<აანალიზებდნენ>"
 	"_" VVFIN 3 Pl Past Ind @HD #2->0
 "<ვითარებას>"
-	"_" NN Dat S @DO #3->
+	"_" NN Dat S @DO #3->2
 "<ფრონტზე>"
-	"_" NN Ppt Sg @MO #4->
+	"_" NN Ppt Sg @MO #4->2
 "<.>"
-	"_" $. @X #5->
+	"_" $. @X #5->2
 
 #GRUG/GEO/go28.tig
 "<ისინი>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->5
 "<მასთან>"
 	"_" PPRN Dat_pos 3 Sg @OO #2->
 "<თავიანთ>"
@@ -382,7 +382,7 @@
 "<საუბრობდნენ>"
 	"_" VVFIN 3 Pl Pres Ind @HD #5->0
 "<.>"
-	"_" $. @X #6->
+	"_" $. @X #6->5
 
 #GRUG/GEO/go29.tig
 "<ის>"
@@ -392,41 +392,41 @@
 "<როგორც>"
 	"_" RQPRN @CCNJ #3->
 "<ნამდვილი>"
-	"_" ADJ Nom Sg @NK #4->
+	"_" ADJ Nom Sg @NK #4->5
 "<მორბენალი>"
 	"_" NN Nom Sg @NN #5->
 "<.>"
-	"_" $. @X #6->
+	"_" $. @X #6->2
 
 #GRUG/GEO/go30.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->2
 "<დარბოდა>"
 	"_" VVFIN 3 Pl Past Ind @HD #2->0
 "<როგორც>"
-	"_" RQPRN @CCNJ #3->
+	"_" RQPRN @CCNJ #3->5
 "<ნამდვილი>"
-	"_" ADJ Nom Sg @NK #4->
+	"_" ADJ Nom Sg @NK #4->5
 "<მორბენალი>"
-	"_" NN Nom Sg @NN #5->
+	"_" NN Nom Sg @NN #5->2
 "<.>"
-	"_" $. @X #6->
+	"_" $. @X #6->2
 
 #GRUG/GEO/go31.tig
 "<გჯერა>"
-	"_" VVFIN 2 Sg Pres Ind @SB #1->
+	"_" VVFIN 2 Sg Pres Ind @SB #1->0
 "<შენ>"
-	"_" PPRN Nom 2 Sg @HD #2->0
+	"_" PPRN Nom 2 Sg @HD #2->1
 "<,>"
-	"_" $, @X #3->
+	"_" $, @X #3->6
 "<რომ>"
-	"_" SCNJ @CJ #4->
+	"_" SCNJ @CJ #4->6
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #5->
+	"_" PPRN Nom 3 Sg @SB #5->6
 "<მოვა>"
-	"_" VVFIN 3 Sg Fut Ind @HD #6->0
+	"_" VVFIN 3 Sg Fut Ind @HD #6->1
 "<?>"
-	"_" $. @X #7->
+	"_" $. @X #7->1
 
 #GRUG/GEO/go32.tig
 "<შენ>"
@@ -448,101 +448,101 @@
 "<ცოცხალი>"
 	"_" ADJ Nom Sg @CJ #9->
 "<ხარ>"
-	"_" VMFIN 2 Sg Pres Ind @HD #10->0
+	"_" VMFIN 2 Sg Pres Ind @HD #10->
 "<.>"
 	"_" $. @X #11->
 
 #GRUG/GEO/go33.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->2
 "<მზარეულობს>"
 	"_" VVFIN 3 Sg Pres Ind @HD #2->0
 "<,>"
-	"_" $, @X #3->
+	"_" $, @X #3->6
 "<როგორც>"
-	"_" RQPRN @CJ #4->
+	"_" RQPRN @CJ #4->6
 "<მას>"
-	"_" PPRN Nom 3 Sg @SB #5->
+	"_" PPRN Nom 3 Sg @SB #5->6
 "<შეუძლია>"
-	"_" VMFIN 3 Sg Pres Ind @HD #6->0
+	"_" VMFIN 3 Sg Pres Ind @HD #6->2
 "<.>"
-	"_" $. @X #7->
+	"_" $. @X #7->2
 
 #GRUG/GEO/go34.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->2
 "<ილანძღებოდა>"
 	"_" VVFIN 3 Sg Pres Ind @HD #2->0
 "<,>"
-	"_" $, @X #3->
+	"_" $, @X #3->7
 "<რომ>"
-	"_" SCNJ @SCNJ #4->
+	"_" SCNJ @SCNJ #4->7
 "<მას>"
-	"_" PPRN Dat Sg @IO #5->
+	"_" PPRN Dat Sg @IO #5->7
 "<არავინ>"
-	"_" NPRN Nom Sg @SB #6->
+	"_" NPRN Nom Sg @SB #6->7
 "<დაეხმარა>"
-	"_" VVFIN 3 Sg Pres Ind @HD #7->0
+	"_" VVFIN 3 Sg Pres Ind @HD #7->2
 "<.>"
-	"_" $. @X #8->
+	"_" $. @X #8->2
 
 #GRUG/GEO/go35.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->2
 "<მიმართავდა>"
 	"_" VVFIN 3 Sg Pres Ind @HD #2->0
 "<ხალხს>"
-	"_" NN Dat S @IO #3->
+	"_" NN Dat S @IO #3->2
 "<,>"
 	"_" $, @X #4->
 "<თავისი>"
-	"_" PSPRN Gen 3 Sg @NK #5->
+	"_" PSPRN Gen 3 Sg @NK #5->7
 "<იდეები>"
-	"_" NN Nom Pl @NK #6->
+	"_" NN Nom Pl @NK #6->7
 "<დაეცვათ>"
-	"_" VVFIN 3 Pl Fut Ind @HD #7->0
+	"_" VVFIN 3 Pl Fut Ind @HD #7->2
 "<.>"
 	"_" $. @X #8->
 
 #GRUG/GEO/go36.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #1->
+	"_" PPRN Nom 3 Sg @SB #1->2
 "<გარბოდა>"
 	"_" VVFIN 3 Sg Past Ind @HD #2->0
 "<,>"
-	"_" $, @X #3->
+	"_" $, @X #3->6
 "<რაც>"
-	"_" RQPRN @CJ #4->
+	"_" RQPRN @CJ #4->6
 "<მას>"
-	"_" PPRN Dat 3 Sg @SB #5->
+	"_" PPRN Dat 3 Sg @SB #5->6
 "<შეეძლო>"
-	"_" VMFIN 3 Sg Past Ind @HD #6->0
+	"_" VMFIN 3 Sg Past Ind @HD #6->2
 "<.>"
-	"_" $. @X #7->
+	"_" $. @X #7->2
 
 #GRUG/GEO/go37.tig
 "<მას>"
-	"_" PPRN Dat 3 Sg @SB #1->
+	"_" PPRN Dat 3 Sg @SB #1->2
 "<აწუხებს>"
 	"_" VVFIN 3 Sg Pres Ind @HD #2->0
 "<,>"
-	"_" $, @X #3->
+	"_" $, @X #3->8
 "<რომ>"
-	"_" SCNJ @CJ #4->
+	"_" SCNJ @CJ #4->8
 "<ის>"
-	"_" PPRN Nom 3 Sg @SB #5->
+	"_" PPRN Nom 3 Sg @SB #5->8
 "<ისევ>"
-	"_" ADV @CJ #6->
+	"_" ADV @CJ #6->7
 "<ავად>"
-	"_" ADV @PRD #7->
+	"_" ADV @PRD #7->8
 "<არის>"
-	"_" VMFIN 3 Sg Pres Ind @X #8->
+	"_" VMFIN 3 Sg Pres Ind @X #8->2
 "<.>"
-	"_" $. @X #9->
+	"_" $. @X #9->8
 
 #GRUG/GEO/go38.tig
 "<ჯონს>"
-	"_" NE Dat Sg @SB #1->
+	"_" NE Dat Sg @SB #1->6
 "<ლოდინის>"
 	"_" NN Gen Sg @CJ #2->
 "<გარდა>"
@@ -554,7 +554,7 @@
 "<შეეძლო>"
 	"_" VMFIN 3 Sg Past Ind @HD #6->0
 "<.>"
-	"_" $. @X #7->
+	"_" $. @X #7->6
 
 #GRUG/GEO/go39.tig
 "<თუნდაც>"
