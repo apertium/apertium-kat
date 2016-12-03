@@ -24,3 +24,14 @@
 4	დააღწია	_	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	HD	_	_|VVFIN|3|Pl|Past|Ind
 5	.	_	PUNCT	_	_	4	X	_	_|_
 
+1	ისინი	_	PRON	PPRN	Case=Nom|Number=Plur|Person=3|PronType=Pers	3	SB	_	_|PPRN|Nom|3|Pl
+2	მასზე	_	PRON	PPRN	Number=Sing|PronType=Pers	3	OO	_	_|PPRN|Ppt|Sg
+3	ლაზღანდარობდნენ	_	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	HD	_	_|VVFIN|3|Pl|Past|Ind
+4	.	_	PUNCT	_	_	3	X	_	_|_
+
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	SB	_	_|PPRN|Nom|3|Sg
+2	თავს	_	NOUN	NN	Case=Dat	4	IO	_	_|NN|Dat|S
+3	ნაკლებად	_	ADV	ADV	_	4	MD	_	_|ADV
+4	უფრთხილდება	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	_|VVFIN|3|Sg|Pres|Ind
+5	.	_	PUNCT	_	_	4	X	_	_|_
+
