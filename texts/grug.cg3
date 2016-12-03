@@ -1,0 +1,77 @@
+DELIMITERS = "<.>"  ;
+
+LIST @CCNJ = @CCNJ ;
+LIST @CJ = @CJ ;
+LIST @DO = @DO ;
+LIST @HD = @HD ;
+LIST @IO = @IO ;
+LIST @MD = @MD ;
+LIST @MO = @MO ;
+LIST @NG = @NG ;
+LIST @NK = @NK ;
+LIST @NK_gen = @NK_gen ;
+LIST @NN = @NN ;
+LIST @OO = @OO ;
+LIST @PPK = @PPK ;
+LIST @PRD = @PRD ;
+LIST @PRDNC = @PRDNC ;
+LIST @SB = @SB ;
+LIST @SCNJ = @SCNJ ;
+LIST @X = @X ;
+
+LIST RQPRN = RQPRN ;
+LIST NOUN = NN ;
+LIST VVFIN = VVFIN ;
+LIST ADV = ADV ; 
+LIST ADJ = ADJ ;
+LIST SCNJ = SCNJ ;
+LIST PUNCT = "<[,.]>"r ;
+
+LIST Nar = Nar ; 
+LIST Nom = Nom ;
+LIST Gen = Gen ;
+LIST Inst = Inst ;
+LIST Abl = Abl ;
+
+LIST Ppt = Ppt ;
+
+SET CASE = Nar | Nom | Gen ;
+
+
+SECTION
+
+SUBSTITUTE (@SB) (@nsubj) TARGET (@SB) ;
+
+SUBSTITUTE (@DO) (@obj) TARGET (@DO) ;
+
+SUBSTITUTE (@IO) (@iobj) TARGET (@IO) ;
+
+SUBSTITUTE (@HD) (@advcl) TARGET (@HD) (c SCNJ) ;
+
+SUBSTITUTE (@HD) (@advcl) TARGET (@HD) (c RQPRN) ;
+
+SUBSTITUTE (@HD) (@root) TARGET (@HD) IF (@0 (*)) ;
+
+SUBSTITUTE (@PRD) (@root) TARGET (@PRD) IF (@0 (*)) ;
+
+SUBSTITUTE (@MD) (@advmod) TARGET (@MD) IF (0 ADV) ;
+
+SUBSTITUTE (@X) (@punct) TARGET (@X) IF (0 PUNCT) ;
+
+SUBSTITUTE (@NK) (@det) TARGET (@NK) IF (0 $$CASE) (p NOUN + $$CASE) ;
+
+SUBSTITUTE (@NN) (@nsubj) TARGET (@NN) IF (0 Nar) (p (@root)) ;
+
+SUBSTITUTE (@NK) (@amod) TARGET (@NK) IF (0 ADJ) (p NOUN) ;
+
+SUBSTITUTE (@OO) (@obl) TARGET (@OO) IF (0 Inst OR Abl) ;
+
+SUBSTITUTE (@SCNJ) (@mark) TARGET (@SCNJ) ;
+
+SUBSTITUTE (@CJ) (@mark) TARGET (@CJ) (0 RQPRN) ;
+
+SUBSTITUTE (@CCNJ) (@mark) TARGET (@CCNJ) (0 RQPRN) ;
+
+SUBSTITUTE (@NN) (@advcl) TARGET (@NN) (c RQPRN) (p VVFIN) ;
+
+SUBSTITUTE (@MO) (@obl) TARGET (@MO) (0 Ppt) ;
