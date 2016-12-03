@@ -1,3 +1,5 @@
 * text=auto !eol
 texts/grug.vislcg.txt -text
+texts/puupankki.kat.feats -text
 texts/puupankki/puupankki.kat.conllu -text
+texts/puupankki/puupankki.kat.tagged -text

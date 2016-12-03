@@ -1,7 +1,26 @@
-# ord: 1  ||| 4/4
-1	აქ	_	_	ADV	_	3	MD	_	_
-2	მე	_	_	PPRN	Nom|1|Sg	3	SB	_	_
-3	ვბრძანებლობ	_	_	VVFIN	1|Sg|Pres|Ind	0	HD	_	_
-4	.	_	_	_	_	3	X	_	_
+1	აქ	_	ADV	ADV	_	3	MD	_	_|ADV
+2	მე	_	PRON	PPRN	Case=Nom|Number=Sing|Person=1|PronType=Pers	3	SB	_	_|PPRN|Nom|1|Sg
+3	ვბრძანებლობ	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	HD	_	_|VVFIN|1|Sg|Pres|Ind
+4	.	_	PUNCT	_	_	3	X	_	_|_
 
+1	მას	_	PRON	PPRN	Case=Dat|Number=Sing|Person=3|PronType=Pers	3	SB	_	_|PPRN|Dat|3|Sg
+2	ყველა	_	PRON	ATPRN	Case=Nom|Number=Plur	3	IO	_	_|ATPRN|Nom|Pl
+3	ენდობა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	_|VVFIN|3|Pl|Pres|Ind
+4	.	_	PUNCT	_	_	3	X	_	_|_
+
+1	კატა	_	NOUN	NN	Case=Nom|Number=Sing	3	SB	_	_|NN|Nom|Sg
+2	თაგვებს	_	NOUN	NN	Case=Dat|Number=Plur	3	DO	_	_|NN|Dat|Pl
+3	იჭერს	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	HD	_	_|VVFIN|3|Pl|Pres|Ind
+4	.	_	PUNCT	_	_	3	X	_	_|_
+
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	3	SB	_	_|PPRN|Nom|3|Sg
+2	მდევრებს	_	NOUN	NN	Case=Dat|Number=Plur	3	IO	_	_|NN|Dat|Pl
+3	გაექცა	_	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	HD	_	_|VVFIN|3|Pl|Past|Ind
+4	.	_	PUNCT	_	_	3	X	_	_|_
+
+1	მან	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	4	SB	_	_|PPRN|Nom|3|Sg
+2	დევნას	_	NOUN	NN	Case=Dat|Number=Sing	4	IO	_	_|NN|Dat|Sg
+3	თავი	_	NOUN	NN	Case=Nom|Number=Sing	4	DO	_	_|NN|Nom|Sg
+4	დააღწია	_	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	HD	_	_|VVFIN|3|Pl|Past|Ind
+5	.	_	PUNCT	_	_	4	X	_	_|_
 
