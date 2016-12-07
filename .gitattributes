@@ -1,4 +1,5 @@
 * text=auto !eol
+dev/TIGERtoVISL-CG3.py -text
 texts/README -text
 texts/grug.cg3 -text
 texts/grug.vislcg -text
