@@ -63,6 +63,18 @@
 "<.>"
 	"_" $. @punct #5->4
 
+#GRUG/GEO/go5.tig
+"<წყალდიდობამ>"
+	"_" NN Nom Sg @nsubj #1->4
+"<საკმაოდ>"
+	"_" ADV1 @X #2-> #2->2
+"<ნელა>"
+	"_" ADV @X #3-> #3->3
+"<დაიწია>"
+	"_" VVFIN 3 Sg Past Ind @root #4->0
+"<.>"
+	"_" $. @punct #5->4
+
 #GRUG/GEO/go6.tig
 "<ამ>"
 	"_" DPRN Nar 3 Sg @det #1->2
@@ -359,6 +371,36 @@
 "<.>"
 	"_" $. @punct #5->2
 
+#GRUG/GEO/go28.tig
+"<ისინი>"
+	"_" PPRN Nom 3 Pl @nsubj #1->7
+"<მასთან>"
+	"_" PPRN Dat_pos 3 Sg @obl #2->7
+		"თან" ADP @case #3->2
+"<თავიანთ>"
+	"_" PSPRN R_case 3 Pl @nmod:poss #4->5
+"<პრობლემაზე>"
+	"_" NN Dat_pos Sg @obl #5->7
+		"ზე" ADP @case #6->5
+"<საუბრობდნენ>"
+	"_" VVFIN 3 Pl Pres Ind @root #7->0
+"<.>"
+	"_" $. @punct #8->7
+
+#GRUG/GEO/go29.tig
+"<ის>"
+	"_" PPRN Nom 3 Sg @nsubj #1->2 
+"<დარბოდა>"
+	"_" VVFIN 3 Pl Past Ind @root #2->0
+"<როგორც>"
+	"_" RQPRN @mark #3->5
+"<ნამდვილი>"
+	"_" ADJ Nom Sg @amod #4->5
+"<მორბენალი>"
+	"_" NN Nom Sg @NN #5->2
+"<.>"
+	"_" $. @punct #6->2
+
 #GRUG/GEO/go30.tig
 "<ის>"
 	"_" PPRN Nom 3 Sg @nsubj #1->2
@@ -389,21 +431,45 @@
 "<?>"
 	"_" $. @X #7->1
 
+#GRUG/GEO/go32.tig
+"<შენ>"
+	"_" PPRN Nom 2 Sg @nsubj #1-> #8->8
+"<ღმერთს>"
+	"_" NN Dat Sg @iobj #2-> #9->9
+"<უნდა>"
+	"_" VMFIN 3 Sg Pres Ind @CJ #3-> #10->10
+"<უმადლოდე>"
+	"_" VVFIN 2 Sg Pres Ind @root #11->0
+"<,>"
+	"_" $, @punct #5-> #12->12
+"<რომ>"
+	"_" SCNJ @CJ #6-> #13->13
+"<შენ>"
+	"_" PPRN Nom 2 Sg @nsubj #7-> #14->14
+"<კიდევ>"
+	"_" ADV @advmod #8-> #15->15
+"<ცოცხალი>"
+	"_" ADJ Nom Sg @CJ #9-> #16->16
+"<ხარ>"
+	"_" VMFIN 2 Sg Pres Ind @root #10-> #17->17
+"<.>"
+	"_" $. @punct #11-> #18->18
+
 #GRUG/GEO/go33.tig
 "<ის>"
-	"_" PPRN Nom 3 Sg @nsubj #8->9
+	"_" PPRN Nom 3 Sg @nsubj #1->2
 "<მზარეულობს>"
-	"_" VVFIN 3 Sg Pres Ind @root #9->0
+	"_" VVFIN 3 Sg Pres Ind @root #2->0
 "<,>"
-	"_" $, @punct #10->13
+	"_" $, @punct #3->6
 "<როგორც>"
-	"_" RQPRN @mark #11->13
+	"_" RQPRN @mark #4->6
 "<მას>"
-	"_" PPRN Nom 3 Sg @nsubj #12->13
+	"_" PPRN Nom 3 Sg @nsubj #5->6
 "<შეუძლია>"
-	"_" VMFIN 3 Sg Pres Ind @advcl #13->9
+	"_" VMFIN 3 Sg Pres Ind @advcl #6->2
 "<.>"
-	"_" $. @punct #14->9
+	"_" $. @punct #7->2
 
 #GRUG/GEO/go34.tig
 "<ის>"
@@ -422,6 +488,24 @@
 	"_" VVFIN 3 Sg Pres Ind @advcl #7->2
 "<.>"
 	"_" $. @punct #8->2
+
+#GRUG/GEO/go35.tig
+"<ის>"
+	"_" PPRN Nom 3 Sg @nsubj #1->2
+"<მიმართავდა>"
+	"_" VVFIN 3 Sg Pres Ind @root #2->0
+"<ხალხს>"
+	"_" NN Dat S @iobj #3->2
+"<,>"
+	"_" $, @punct #4-> #4->4
+"<თავისი>"
+	"_" PSPRN Gen 3 Sg @NK #5->7
+"<იდეები>"
+	"_" NN Nom Pl @NK #6->7
+"<დაეცვათ>"
+	"_" VVFIN 3 Pl Fut Ind @root #7->2
+"<.>"
+	"_" $. @punct #8-> #8->8
 
 #GRUG/GEO/go36.tig
 "<ის>"
@@ -458,3 +542,179 @@
 	"_" VMFIN 3 Sg Pres Ind @X #8->2
 "<.>"
 	"_" $. @punct #9->8
+
+#GRUG/GEO/go38.tig
+"<ჯონს>"
+	"_" NE Dat Sg @nsubj #1->6
+"<ლოდინის>"
+	"_" NN Gen Sg @CJ #2-> #2->2
+"<გარდა>"
+	"_" ENPOS @root #3->0
+"<სხვა>"
+	"_" IPRN Nom Sg @obj #4-> #4->4
+"<არაფერი>"
+	"_" NPRN Nom Sg @MO #5-> #5->5
+"<შეეძლო>"
+	"_" VMFIN 3 Sg Past Ind @root #6->0
+"<.>"
+	"_" $. @punct #7->6
+
+#GRUG/GEO/go39.tig
+"<თუნდაც>"
+	"_" SCNJ @mark #1-> #1->1
+"<ყველა>"
+	"_" IPRN Non Pl @NK #2-> #2->2
+"<მუსიკალური>"
+	"_" ADJ Nom Sg @NK #3-> #3->3
+"<ჟანრის>"
+	"_" NN Gen Sg @NK #4-> #4->4
+"<პურიტანმა>"
+	"_" NN Nom Pl @NK #5-> #5->5
+"<ცხვირი>"
+	"_" NN Dat Sg @MD #6-> #6->6
+"<აიბზუოს>"
+	"_" VVFIN 3 Sg Fut Ind @root #7->0
+"<,>"
+	"_" $, @punct #8-> #8->8
+"<მუსიკის>"
+	"_" NN Gen Sg @NK #9-> #9->9
+"<მომავალი>"
+	"_" NN Nom Sg @NK #10-> #10->10
+"<ბევრი>"
+	"_" IPRN Nom @NK #11-> #11->11
+"<ახალგაზრდა>"
+	"_" ADJ Nom Sg @NK #12-> #12->12
+"<კომპოზიტორისათვის>"
+	"_" NPOS Gen Sg @NK #13-> #13->13
+"<მაინც>"
+	"_" ADV @advmod #14-> #14->14
+"<შერეულ>"
+	"_" ADJ Stem Sg @NK #15-> #15->15
+"<სტილში>"
+	"_" NPOS Gen Sg @NK #16-> #16->16
+"<იქნება>"
+	"_" VVFIN 3 Sg Fut Ind @root #17->0
+"<.>"
+	"_" $. @punct #18-> #18->18
+
+#GRUG/GEO/go40.tig
+"<ფოლკლორის>"
+	"_" NN Gen Sg @CJ #1-> #1->1
+"<,>"
+	"_" $, @punct #2-> #2->2
+"<როკის>"
+	"_" NN Gen Sg @CJ #3-> #3->3
+"<,>"
+	"_" $, @punct #4-> #4->4
+"<კლასიკის>"
+	"_" NN Gen Sg @CJ #5-> #5->5
+"<და>"
+	"_" CCNJ @CJ #6-> #6->6
+"<ჯაზის>"
+	"_" NN Gen Sg @CJ #7-> #7->7
+"<ერთმანეთში>"
+	"_" RLPRN @CJ #8-> #8->8
+"<არევა>"
+	"_" NN @root #9->0
+"<მათ>"
+	"_" PPRN Dat 3 Pl @nsubj #10-> #10->10
+"<არ>"
+	"_" NEG @NG #11-> #11->11
+"<კმარათ>"
+	"_" VVFIN 3 Sg Pres Ind @root #12->0
+"<,>"
+	"_" $, @punct #13-> #13->13
+"<ისინი>"
+	"_" PPRN Nom 3 Pl @nsubj #14-> #14->14
+"<ელექტრონიკას>"
+	"_" NN Dat Sg @obj #15-> #15->15
+"<იყენებენ>"
+	"_" VVFIN 3 Pl Pres Ind @root #16->0
+"<და>"
+	"_" CCNJ @CJ #17-> #17->17
+"<იქამდეც>"
+	"_" ADV @advmod #18-> #18->18
+"<კი>"
+	"_" EMPRT @X #19-> #19->19
+"<მივიდნენ>"
+	"_" VVFIN 3 Pl Pres Ind @root #20->0
+"<,>"
+	"_" $, @punct #21-> #21->21
+"<რომ>"
+	"_" SCNJ @mark #22-> #22->22
+"<ინსტრუმენტებს>"
+	"_" NN Dat Pl @obj #23-> #23->23
+"<თვითონ>"
+	"_" RFPRN @nsubj #24-> #24->24
+"<აწყობენ>"
+	"_" VVFIN 3 Pl Pres Ind @root #25->0
+"<.>"
+	"_" $. @punct #26-> #26->26
+
+#GRUG/GEO/go41.tig
+"<ისინი>"
+	"_" PPRN 3 Pl Nom @nsubj #1-> #1->1
+"<საეჭვო>"
+	"_" ADJ R_case Sg @CJ #2-> #2->2
+"<ურთიერთობებში >"
+	"_" NN Npt Pl @CJ #3-> #3->3
+"<შედიან>"
+	"_" VVFIN 3 Pl Pres Ind @root #4->0
+"<და>"
+	"_" CCNJ @CCNJ #5-> #5->5
+"<რისკს>"
+	"_" NN Dat Sg @obj #6-> #6->6
+"<ეწევიან>"
+	"_" VVFIN 3 Pl Pres Ind @root #7->0
+"<,>"
+	"_" $, @punct #8-> #8->8
+"<ცდილობენ>"
+	"_" VVFIN 3 Pl Pres Ind @root #9->0
+"<თავისი>"
+	"_" PSPRN Nom Sg @MD #10-> #10->10
+"<შესაძლებლობების>"
+	"_" NN Dat Pl @NK #11-> #11->11
+"<სრულად>"
+	"_" ADV @advmod #12-> #12->12
+"<გამოიყენებას>"
+	"_" VINF Dat Sg @root #13-> #13->13
+"<.>"
+	"_" $. @punct #14-> #14->14
+
+#GRUG/GEO/go42.tig
+"<თუ>"
+	"_" SCNJ @mark #1-> #1->1
+"<ყველა>"
+	"_" IPRN Non Pl @NK #2-> #2->2
+"<მუსიკალური>"
+	"_" ADJ Nom Sg @NK #3-> #3->3
+"<ჟანრის>"
+	"_" NN Gen Sg @NK #4-> #4->4
+"<პურიტანები>"
+	"_" NN Nom Pl @NK #5-> #5->5
+"<კვლავინდებურად>"
+	"_" ADV @advmod #6-> #6->6
+"<ცხვირს>"
+	"_" NN Dat Sg @PRDNC #7-> #7->7
+"<აიბზუებენ>"
+	"_" VVFIN 3 Sg Fut Ind @root #8->0
+"<,>"
+	"_" $, @punct #9-> #9->9
+"<მუსიკის>"
+	"_" NN Gen Sg @NK #10-> #10->10
+"<მომავალი>"
+	"_" NN Nom Sg @NK #11-> #11->11
+"<ბევრი>"
+	"_" IPRN Nom @NK #12-> #12->12
+"<ახალგაზრდა>"
+	"_" ADJ Nom Sg @NK #13-> #13->13
+"<კომპოზიტორისათვის>"
+	"_" NPOS Gen Sg @NK #14-> #14->14
+"<ნაზავ>"
+	"_" ADJ Stem Sg @NK #15-> #15->15
+"<სტილში>"
+	"_" NPOS Gen Sg @NK #16-> #16->16
+"<დარჩება>"
+	"_" VVFIN 3 Sg Fut Ind @root #17->0
+"<.>"
+	"_" $. @punct #18-> #18->18

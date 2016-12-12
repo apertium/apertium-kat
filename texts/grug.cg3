@@ -21,6 +21,7 @@ LIST @X = @X ;
 
 LIST RQPRN = RQPRN ;
 LIST NOUN = NN ;
+LIST ADP = ADP ;
 LIST VVFIN = VVFIN ;
 LIST ADV = ADV ; 
 LIST ADJ = ADJ ;
@@ -65,6 +66,8 @@ SUBSTITUTE (@NN) (@nsubj) TARGET (@NN) IF (0 Nar) (p (@root)) ;
 SUBSTITUTE (@NK) (@amod) TARGET (@NK) IF (0 ADJ) (p NOUN) ;
 
 SUBSTITUTE (@OO) (@obl) TARGET (@OO) IF (0 Inst OR Abl) ;
+
+SUBSTITUTE (@OO) (@obl) TARGET (@OO) IF (0/1 ADP) ;
 
 SUBSTITUTE (@SCNJ) (@mark) TARGET (@SCNJ) ;
 
