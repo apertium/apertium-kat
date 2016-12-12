@@ -71,6 +71,17 @@
 4	ფრონტზე	_	NOUN	NN	Number=Sing	2	obl	_	Translit=prontʼze|NN|Ppt|Sg
 5	.	_	PUNCT	_	_	2	punct	_	Translit=.
 
+1	ისინი	_	PRON	PPRN	Case=Nom|Number=Plur|Person=3|PronType=Pers	7	nsubj	_	Translit=isini|PPRN|Nom|3|Pl
+2-3	მასთან	_	_	_	_	_	_	_	Translit=mastan
+2	_	_	PRON	PPRN	Number=Sing|Person=3|PronType=Pers	7	obl	_	Translit=_|PPRN|Datpos|3|Sg
+3	_	თან	PUNCT	ADP	_	2	case	_	Translit=_|თან|ADP
+4	თავიანთ	_	PRON	PSPRN	Number=Plur|Person=3|PronType=Poss	5	nmod:poss	_	Translit=taviant|PSPRN|Rcase|3|Pl
+5-6	პრობლემაზე	_	_	_	_	_	_	_	Translit=pʼroblemaze
+5	_	_	NOUN	NN	Number=Sing	7	obl	_	Translit=_|NN|Datpos|Sg
+6	_	ზე	PUNCT	ADP	_	5	case	_	Translit=_|ზე|ADP
+7	საუბრობდნენ	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=saubrobdnen|VVFIN|3|Pl|Pres|Ind
+8	.	_	PUNCT	_	_	7	punct	_	Translit=.
+
 1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	nsubj	_	Translit=is|PPRN|Nom|3|Sg
 2	დარბოდა	_	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Translit=darboda|VVFIN|3|Pl|Past|Ind
 3	როგორც	_	PRON	RQPRN	PronType=Recip	5	mark	_	Translit=rogorts|RQPRN
@@ -78,13 +89,13 @@
 5	მორბენალი	_	NOUN	NN	Case=Nom|Number=Sing	2	advcl	_	Translit=morbenali|NN|Nom|Sg
 6	.	_	PUNCT	_	_	2	punct	_	Translit=.
 
-1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	9	nsubj	_	Translit=is|PPRN|Nom|3|Sg
+1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	nsubj	_	Translit=is|PPRN|Nom|3|Sg
 2	მზარეულობს	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=mzareulobs|VVFIN|3|Sg|Pres|Ind
-3	,	_	PUNCT	_	_	13	punct	_	Translit=,
-4	როგორც	_	PRON	RQPRN	PronType=Recip	13	mark	_	Translit=rogorts|RQPRN
-5	მას	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	13	nsubj	_	Translit=mas|PPRN|Nom|3|Sg
-6	შეუძლია	_	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	Translit=sheudzlia|VMFIN|3|Sg|Pres|Ind
-7	.	_	PUNCT	_	_	9	punct	_	Translit=.
+3	,	_	PUNCT	_	_	6	punct	_	Translit=,
+4	როგორც	_	PRON	RQPRN	PronType=Recip	6	mark	_	Translit=rogorts|RQPRN
+5	მას	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	6	nsubj	_	Translit=mas|PPRN|Nom|3|Sg
+6	შეუძლია	_	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	Translit=sheudzlia|VMFIN|3|Sg|Pres|Ind
+7	.	_	PUNCT	_	_	2	punct	_	Translit=.
 
 1	ის	_	PRON	PPRN	Case=Nom|Number=Sing|Person=3|PronType=Pers	2	nsubj	_	Translit=is|PPRN|Nom|3|Sg
 2	ილანძღებოდა	_	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Translit=ilandzgheboda|VVFIN|3|Sg|Pres|Ind

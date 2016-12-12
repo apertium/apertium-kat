@@ -372,17 +372,19 @@
 
 #GRUG/GEO/go28.tig
 "<ისინი>"
-	"_" PPRN Nom 3 Sg @SB #1->5
+	"_" PPRN Nom 3 Pl @SB #1->7
 "<მასთან>"
-	"_" PPRN Dat_pos 3 Sg @OO #2->
+	"_" PPRN Dat_pos 3 Sg @OO #2->7
+		"_" ADP @case #3->2
 "<თავიანთ>"
-	"_" PSPRN R_case 3 Pl @X #3->
+	"_" PSPRN R_case 3 Pl @X #4->5
 "<პრობლემაზე>"
-	"_" NN Dat_pos Sg @X #4->
+	"_" NN Dat_pos Sg @OO #5->7
+		"_" ADP @case #6->5
 "<საუბრობდნენ>"
-	"_" VVFIN 3 Pl Pres Ind @HD #5->0
+	"_" VVFIN 3 Pl Pres Ind @HD #7->0
 "<.>"
-	"_" $. @X #6->5
+	"_" $. @X #8->5
 
 #GRUG/GEO/go29.tig
 "<ის>"
