@@ -7,3 +7,8 @@ texts/grug.vislcg.txt -text
 texts/puupankki.kat.feats -text
 texts/puupankki/puupankki.kat.conllu -text
 texts/puupankki/puupankki.kat.tagged -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
