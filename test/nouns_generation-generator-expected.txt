@@ -1,28 +1,28 @@
-[0Ea46Nr2-HbH#0] კაცი<n><voc>
-[/0Ea46Nr2-HbH]
-[9b9Abyf7eNvO#0] კაცი<n><erg>
-[/9b9Abyf7eNvO]
-[Czb2it7976V0#0] კაცი<n><pl><ins>
-[/Czb2it7976V0]
-[Dzue0gf0Ii3Y#0] კაცი<n><pl><advl>
-[/Dzue0gf0Ii3Y]
-[IYvfaS_G_GXm#0] კაცი<n><pl><gen>
-[/IYvfaS_G_GXm]
-[YOslZCCmLQq8#0] კაცი<n><nom>
-[/YOslZCCmLQq8]
-[_hlHfScTjwVn#0] კაცი<n><pl><erg>
-[/_hlHfScTjwVn]
-[b6doct0hW41_#0] კაცი<n><ins>
-[/b6doct0hW41_]
-[cUQpTNkT8PHM#0] კაცი<n><pl><dat>
-[/cUQpTNkT8PHM]
-[dnNBm2pb4nVX#0] კაცი<n><dat>
-[/dnNBm2pb4nVX]
-[g6TGPVAaN32o#0] კაცი<n><pl><voc>
-[/g6TGPVAaN32o]
-[gRE6FMVg1qFS#0] კაცი<n><gen>
-[/gRE6FMVg1qFS]
-[idVhxYIhlmr7#0] კაცი<n><advl>
-[/idVhxYIhlmr7]
-[p3YbwjIgo082#0] კაცი<n><pl><nom>
-[/p3YbwjIgo082]
+[-Y5cFhr8tS0M#0] კაცები
+[/-Y5cFhr8tS0M]
+[4FYK1hxdUss3#0] კაცი
+[/4FYK1hxdUss3]
+[4HMVgB1GDiER#0] კაცებო
+[/4HMVgB1GDiER]
+[JITOdm9OUwpZ#0] კაცის
+[/JITOdm9OUwpZ]
+[RKM7V8wd3D3k#0] კაცებმა
+[/RKM7V8wd3D3k]
+[TSEz1lIbxsVd#0] კაცით
+[/TSEz1lIbxsVd]
+[Tu6R2vF5HIje#0] კაცებს
+[/Tu6R2vF5HIje]
+[USLKmbTZzR1O#0] კაცებით
+[/USLKmbTZzR1O]
+[YSA7IZOf1th1#0] კაცებად
+[/YSA7IZOf1th1]
+[ooEO0_iNoG7I#0] კაცს
+[/ooEO0_iNoG7I]
+[qIX3ad80qAMK#0] კაცმა
+[/qIX3ad80qAMK]
+[s6KwG8hc-S2Y#0] კაცად
+[/s6KwG8hc-S2Y]
+[u3PyUpY--Nii#0] კაცების
+[/u3PyUpY--Nii]
+[wFtUhhgycjQC#0] კაცო
+[/wFtUhhgycjQC]
