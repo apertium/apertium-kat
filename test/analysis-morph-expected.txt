@@ -1,6 +1,4 @@
-[OCI6WQXdlLWi#0] ^სახლები/სახლ<n><pl>\<nom\>$
+[OCI6WQXdlLWi#0] ^სახლები/სახლ<n><pl><nom>$
 [/OCI6WQXdlLWi]
-[S9uR_yAaTnU-#0] ^სახლ/სახლ<n><sg>$
-[/S9uR_yAaTnU-]
-[tAqB7Z2Ttlts#0] ^სახლი/სახლ<n><sg>\<nom\>$
+[tAqB7Z2Ttlts#0] ^სახლი/სახლ<n><nom>$
 [/tAqB7Z2Ttlts]

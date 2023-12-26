@@ -38,9 +38,18 @@ PATTERN NounInfl
 
 Nouns [<n>:] N-Num? N-Case
 
+ProperNouns(1) [<np>:] ProperNouns(2) N-Num? N-Case
+
+
 LEXICON N-Case
 
-<nom>:ი
+<nom>:{ი}
+<erg>:მ{A}
+<dat>:ს
+<gen>:{i}ს
+<ins>:{i}თ{I}
+<advl>:{ა}დ
+<voc>:{ო}
 
 LEXICON N-Num
 
@@ -54,6 +63,12 @@ LEXICON N-Num
 LEXICON Nouns
 
 სახლ:სახლ # house
+მამა:მამ{ა} # father
+კაც:კაც # man
+
+LEXICON ProperNouns(2)
+
+საქართველო:საქართველო  <top>: # Georgia
 
 PATTERN Number
 Numeral [<num>:]

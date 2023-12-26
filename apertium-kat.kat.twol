@@ -1,17 +1,42 @@
 Alphabet
  A B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z
  a b ç d e ä f g h i j ž k l m n ň o ö p r s ş t u ü w y ý z
- %{A%}:a %>:0  ;
+ ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
+ ჱ ჲ ჳ ჴ ჵ  ! old letters
+ %{ი%}:ი %{ი%}:0 ! ი that deletes after all vowels
+ %{i%}:ი %{i%}:0 ! ი that deletes after only non-truncating vowels
+ %{I%}:ი %{I%}:0 ! ი at end of instrumental after non-truncating vowels
+ %{A%}:ა %{A%}:0 ! ა at end of ergative after C-final stems
+ %{ა%}:ა %{ა%}:0 ! ა that deletes after vowels / truncating ა
+ %{ო%}:ო %{ო%}:0 ! ო that deletes after vowels
+ %>:0  ;
 
 Sets
 
-Vowel = A E Ä I O Ö U Ü Y Ý 
-        a e ä i o ö u ü y ý ;
+Vow = ა ე ი ო უ ;
 
-Rules 
+TruncV = %{ა%} ;
 
-"Remove suffix vowel with vowel-ending stem"
-i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+Rules
+
+"{ი} as 0 after vowels"
+%{ი%}:0 <=> :Vow %>: _ ;
+
+"{i} as 0 after non-truncating vowels"
+%{i%}:0 <=> [ :Vow - TruncV: ] %>: _ ;
+
+"{A} as 0 after vowel-final stem"
+%{A%}:0 <=> :Vow %>: მ _ ;
+
+"{I} as 0 if previous {i} surfaces"
+%{I%}:0 <=> %{i%}:ი თ _ ;
+
+"{ა} as 0 after any vowel"
+%{ა%}:0 <=> [ Vow: | TruncV: ] %>: _ ;
+
+"{ო} as 0 after any vowel"
+%{ო%}:0 <=> [ Vow: | TruncV: ] %>: _ ;
+
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
