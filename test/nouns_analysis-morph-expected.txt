@@ -1,0 +1,32 @@
+[2S81oIm6UY3S#0] ^კაცმა/კაცი<n><erg>$
+[/2S81oIm6UY3S]
+[40CCElbyLa-2#0] ^კაცების/კაცი<n><pl><gen>$
+[/40CCElbyLa-2]
+[CKfJFaqx56hN#0] ^კაცს/კაცი<n><dat>$
+[/CKfJFaqx56hN]
+[F-mxLn6X5xqv#0] ^კაცებს/კაცი<n><pl><dat>$
+[/F-mxLn6X5xqv]
+[GUC4tC5h_-kA#0] ^კაცებმა/კაცი<n><pl><erg>$
+[/GUC4tC5h_-kA]
+[H8NpznNApZxc#0] ^კაცები/კაცი<n><pl><nom>$
+[/H8NpznNApZxc]
+[KNQFo-lYRmks#0] ^კაცი/კაცი<n><nom>$
+[/KNQFo-lYRmks]
+[OCI6WQXdlLWi#0] ^სახლები/სახლი<n><pl><nom>$
+[/OCI6WQXdlLWi]
+[TbeM_FV9Ktf1#0] ^კაცით/კაცი<n><ins>$
+[/TbeM_FV9Ktf1]
+[WYA4yeCJBbqb#0] ^კაცად/კაცი<n><advl>$
+[/WYA4yeCJBbqb]
+[_c_NM2QxZ2Xf#0] ^კაცებო/კაცი<n><pl><voc>$
+[/_c_NM2QxZ2Xf]
+[n90vRUNY5qhF#0] ^კაცო/კაცი<n><voc>$
+[/n90vRUNY5qhF]
+[p6JIgUsN9RVM#0] ^კაცის/კაცი<n><gen>$
+[/p6JIgUsN9RVM]
+[tAqB7Z2Ttlts#0] ^სახლი/სახლი<n><nom>$
+[/tAqB7Z2Ttlts]
+[v6x7pK1F4KSH#0] ^კაცებად/კაცი<n><pl><advl>$
+[/v6x7pK1F4KSH]
+[xsLeQHM1OTPn#0] ^კაცებით/კაცი<n><pl><ins>$
+[/xsLeQHM1OTPn]

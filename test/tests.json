@@ -1,6 +1,10 @@
 {
-    "analysis": {
-        "input": "analysis-input.txt",
+    "nouns_analysis": {
+        "input": "nouns_analysis-input.txt",
         "mode": "kat-morph"
+    },
+    "nouns_generation": {
+        "input": "nouns_generation-input.txt",
+        "mode": "kat-gener"
     }
 }

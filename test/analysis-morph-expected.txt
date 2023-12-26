@@ -1,4 +1,0 @@
-[OCI6WQXdlLWi#0] ^სახლები/სახლ<n><pl><nom>$
-[/OCI6WQXdlLWi]
-[tAqB7Z2Ttlts#0] ^სახლი/სახლ<n><nom>$
-[/tAqB7Z2Ttlts]
