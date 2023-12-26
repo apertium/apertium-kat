@@ -1,8 +1,8 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-srcdir=@datarootdir@/apertium/apertium-kar
+srcdir=@datarootdir@/apertium/apertium-kat
 
-Name: apertium-kar
-Description: Finite-state morphological transducer and constraint grammar for kar 
+Name: apertium-kat
+Description: Finite-state morphological transducer and constraint grammar for Georgian
 Version: @VERSION@
 

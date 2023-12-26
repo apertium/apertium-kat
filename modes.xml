@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="kat-twol" install="yes">
+  <mode name="kat-twol" install="no">
     <pipeline>
       <program name="hfst-strings2fst -S"/>
       <program name="hfst-compose-intersect">
@@ -19,10 +19,18 @@
     </pipeline>
   </mode>
 
-  <mode name="kat-lexc" install="yes">
+  <mode name="kat-lexc" install="no">
     <pipeline>
       <program name="hfst-lookup">
         <file name=".deps/kat.LR.lexc.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="kat-lexd" install="no">
+    <pipeline>
+      <program name="hfst-lookup">
+        <file name=".deps/kat.LR.lexd.hfst"/>
       </program>
     </pipeline>
   </mode>
@@ -54,6 +62,14 @@
       <program name="cg-conv -a"/>
       <program name="vislcg3 --trace --grammar">
         <file name="kat.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="kat-paradigm" install="yes">
+    <pipeline>
+      <program name="lt-paradigm -s">
+        <file name="kat.autogen.bin"/>
       </program>
     </pipeline>
   </mode>

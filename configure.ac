@@ -1,43 +1,27 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium kat], [0.1.0], [tommi.antero.pirinen@uni-hamburg.de], [apertium-kat], [https://wiki.apertium.org/wiki/Apertium-kat])
+AC_INIT([Apertium Georgian], [0.1.0], [https://github.com/apertium/apertium-kat/issues], [apertium-kat], [https://wiki.apertium.org/wiki/Apertium-kat])
 AM_INIT_AUTOMAKE
-
-AC_PROG_LN_S
 AC_PROG_AWK
 
-dnl HFST support
-AH_TEMPLATE(HAVE_HFSTOSPELL, [Have HFSTOSPELL])
-AC_ARG_ENABLE(ospell, AC_HELP_STRING([--enable-ospell],
-        [enable HFST spellchecking backend]),
-        [hfstospell=${enableval}], [hfstospell=no])
-dnl must be AS_IF for some aclocals to pick PKG_CHECK_MODULES somehow.
-dnl AC_PROVIDE_IFELSE doesn't work on mac?
-AS_IF([test x$hfstospell = xyes], [
-      PKG_CHECK_MODULES([HFSTOSPELL], [hfstospell >= 0.2])
-          AC_DEFINE(HAVE_HFSTOSPELL, 1)
-          CXXFLAGS="$CXXFLAGS $HFSTOSPELL_CFLAGS"
-        ])
-AM_CONDITIONAL([HAVE_HFSTOSPELL], [test x$hfstospell = xyes])
+PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.7.4)
+PKG_CHECK_MODULES(APERTIUM, apertium >= 3.9.0)
+PKG_CHECK_MODULES(HFST, hfst >= 3.16.0)
+PKG_CHECK_MODULES(CG3, cg3 >= 1.4.0)
+PKG_CHECK_MODULES(LEXD, lexd >= 1.3.0)
 
+AC_ARG_ENABLE([speller], AC_HELP_STRING([--enable-speller], [Build spellchecker from morphological analyser]))
 
-m4_define([required_apertium_version], [3.4.0])
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)
+AM_CONDITIONAL([ENABLE_SPELLER], [test "x$enable_speller" = "xyes"])
+AM_COND_IF([ENABLE_SPELLER], [
+  PKG_CHECK_MODULES(HFSTOSPELL, hfstospell >= 0.5.3, [],
+     [AC_MSG_NOTICE([You will need hfst-ospell installed to use the compiled speller])])
+])
 
-AC_PATH_PROG([HFSTLEXC], [hfst-lexc], [false], [$PATH$PATH_SEPARATOR$with_hfst_lexc/bin])
-AS_IF([test x$HFSTLEXC = xfalse], [AC_MSG_ERROR([You don't have hfst-lexc installed])])
-
-AC_PATH_PROG([HFSTTWOLC], [hfst-twolc], [false], [$PATH$PATH_SEPARATOR$with_hfst_twolc/bin])
-AS_IF([test x$HFSTTWOLC = xfalse], [AC_MSG_ERROR([You don't have hfst-twolc installed])])
-
-AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
-AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed])])
-
-
-PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.0.1, [],
-                  [AC_MSG_WARN([Running tests requires apertium-regtest])])
+PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.9.1, [],
+   [AC_MSG_WARN([Running tests requires apertium-regtest])])
 
 AP_MKINCLUDE
 
-AC_OUTPUT([Makefile apertium-kat.pc])
-
+AC_CONFIG_FILES([Makefile apertium-kat.pc])
+AC_OUTPUT
