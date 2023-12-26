@@ -9,6 +9,7 @@ Alphabet
  %{A%}:ა %{A%}:0 ! ა at end of ergative after C-final stems
  %{ა%}:ა %{ა%}:0 ! ა that deletes after vowels / truncating ა
  %{ო%}:ო %{ო%}:0 ! ო that deletes after vowels
+ %{O%}:ო %{O%}:ვ ! ო that is ვ after vowels
  %>:0  ;
 
 Sets
@@ -39,6 +40,9 @@ Rules
 
 "{ო} as 0 after any vowel"
 %{ო%}:0 <=> [ Vow: | TruncV: ] %>: _;
+
+"{O} as ვ after any vowel"
+%{O%}:ვ <=> [ Vow: | TruncV: ] %>: _;
 
 
 ! Resources:

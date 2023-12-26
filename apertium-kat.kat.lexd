@@ -49,7 +49,8 @@ LEXICON N-Case
 <gen>:>{i}ს
 <ins>:>{i}თ{I}
 <advl>:>{ა}დ
-<voc>:>{ო}
+<voc>:>{ო}  # Dir/LR
+<voc>:>{O}
 
 LEXICON N-Num
 
