@@ -17,10 +17,12 @@ Vow = ა ე ი ო უ ;
 
 TruncV = %{ა%} ;
 
+VNoDelAfterTrunc = %{i%} ;
+
 Rules
 
 "{ი} as 0 after vowels"
-%{ი%}:0 <=> :Vow %>: _ ;
+%{ი%}:0 <=> [ Vow: | TruncV: ] %>: _ ;
 
 "{i} as 0 after non-truncating vowels"
 %{i%}:0 <=> [ :Vow - TruncV: ] %>: _ ;
@@ -31,11 +33,12 @@ Rules
 "{I} as 0 if previous {i} surfaces"
 %{I%}:0 <=> %{i%}:ი თ _ ;
 
-"{ა} as 0 after any vowel"
+"{ა} as 0 after any vowel and (in truncating use) before any vowel"
 %{ა%}:0 <=> [ Vow: | TruncV: ] %>: _ ;
+            _ %>: [ Vow: | VNoDelAfterTrunc: ] ;
 
 "{ო} as 0 after any vowel"
-%{ო%}:0 <=> [ Vow: | TruncV: ] %>: _ ;
+%{ო%}:0 <=> [ Vow: | TruncV: ] %>: _;
 
 
 ! Resources:

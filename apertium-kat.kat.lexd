@@ -43,13 +43,13 @@ ProperNouns(1) [<np>:] ProperNouns(2) N-Num? N-Case
 
 LEXICON N-Case
 
-<nom>:{ი}
-<erg>:მ{A}
-<dat>:ს
-<gen>:{i}ს
-<ins>:{i}თ{I}
-<advl>:{ა}დ
-<voc>:{ო}
+<nom>:>{ი}
+<erg>:>მ{A}
+<dat>:>ს
+<gen>:>{i}ს
+<ins>:>{i}თ{I}
+<advl>:>{ა}დ
+<voc>:>{ო}
 
 LEXICON N-Num
 
