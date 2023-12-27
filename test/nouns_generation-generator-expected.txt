@@ -16,7 +16,7 @@
 [/JITOdm9OUwpZ]
 [LEEoAg3WAkhy#0] მამამ
 [/LEEoAg3WAkhy]
-[NKJ4_vPehb-l#0] მამა
+[NKJ4_vPehb-l#0] მამავ
 [/NKJ4_vPehb-l]
 [OuHlxzRs_abB#0] მამის
 [/OuHlxzRs_abB]
@@ -32,18 +32,30 @@
 [/USLKmbTZzR1O]
 [X3WftCxjLAO4#0] მამებად
 [/X3WftCxjLAO4]
+[XNnofKzWMnap#0] საქართველოთი
+[/XNnofKzWMnap]
 [YSA7IZOf1th1#0] კაცებად
 [/YSA7IZOf1th1]
+[eL2QqXhjFrxd#0] საქართველოვ
+[/eL2QqXhjFrxd]
 [fIK3IX7EIKZP#0] მამა
 [/fIK3IX7EIKZP]
+[gPb3Q7IcJ226#0] საქართველოს
+[/gPb3Q7IcJ226]
 [lu22V0jr_pF3#0] მამებს
 [/lu22V0jr_pF3]
+[nxAv-5pxAscb#0] საქართველო
+[/nxAv-5pxAscb]
 [ooEO0_iNoG7I#0] კაცს
 [/ooEO0_iNoG7I]
 [qIX3ad80qAMK#0] კაცმა
 [/qIX3ad80qAMK]
+[rlWHkqD0UStb#0] საქართველოს
+[/rlWHkqD0UStb]
 [s6KwG8hc-S2Y#0] კაცად
 [/s6KwG8hc-S2Y]
+[tgJlyPSJAMBk#0] საქართველოდ
+[/tgJlyPSJAMBk]
 [u3PyUpY--Nii#0] კაცების
 [/u3PyUpY--Nii]
 [uflgVPzZHiQx#0] მამით
@@ -52,5 +64,7 @@
 [/vapebj71KkDE]
 [wFtUhhgycjQC#0] კაცო
 [/wFtUhhgycjQC]
+[yJSW1F_Lfr7t#0] საქართველომ
+[/yJSW1F_Lfr7t]
 [yZXUGJyJ_bEM#0] მამები
 [/yZXUGJyJ_bEM]
