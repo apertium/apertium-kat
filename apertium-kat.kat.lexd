@@ -31,6 +31,7 @@ PATTERNS
 
 NounInfl
 AdjInfl
+VerbInfl
 Number
 Punctuation
 
@@ -44,6 +45,68 @@ ProperNouns(1) [<np>:] ProperNouns(2) N-Num? (N-Case N-Postpos?)[^[nom,dat,gen,n
 PATTERN AdjInfl
 
 Adjectives [<adj>:] Adj-Case
+Adjectives [<adj><subst>:] N-Case
+
+PATTERN VerbInfl
+
+#Verbs(1) V-Prefix-Person Verbs(2) Verbs(3) Verbs(4) V-Suffix-Impf V-Suffix-Person V-Suffix-Aux V-Suffix-Pl
+#Verbs(1) V-Person(1) Verbs(2) Verbs(3) Verbs(4) V-Suffix-Impf V-Person(2) V-Suffix-Aux V-Suffix-Pl
+#(V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Pres V-Person(2)[subj])[^[impf,ind,sub]]
+#(V-Person(1) Verbs(2) Verbs(3) Verbs(4) V-Suffix-Pres V-Person(2))[^[impf,ind,sub],^[subj,obj]]
+# Present series
+(V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Pres V-Person(2)[subj])[^[impf,ind,sub]]
+# Future series
+(Verbs(1) V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Fut V-Person(2)[subj])[^[impf,ind,sub]]
+# Aorist Series
+(Verbs(1) V-Person(1)[subj] Verbs(2) Verbs(3) V-Suffix-Aor V-Person(2)[subj])[^[impf,ind,sub]]
+# Perfective series
+(Verbs(1) V-Person(1)[obj] [ი:] Verbs(3) Verbs(4) V-Suffix-Perf1 V-Person(2)[obj])[^[ind,sub]]
+(Verbs(1) V-Person(1)[obj] [ე:] Verbs(3) Verbs(4) V-Suffix-Perf2 V-Person(2)[obj])[^[ind,sub]]
+
+LEXICON V-Person(2)[subj]  # everything is ind, sub, & impf except for 4 rows
+:ვ>	<p1><sg>[ind,impf,sub]:
+:	<p2><sg>[ind,impf,sub]:
+:	<p3><sg>[ind,sub]:>ს          # ind,sub only
+:	<p3><sg>[impf]:               # impf only
+:ვ>	<p1><pl>[ind,impf,sub]:>თ
+:	<p2><pl>[ind,impf,sub]:>თ
+:	<p3><pl>[ind]:>ენ             # ind only
+:	<p3><pl>[impf,sub]:>ნენ       # impf,sub only
+
+LEXICON V-Person(2)[obj,ind]  # everything is ind & sub except last 4
+:მ>	<p1><sg>:
+:გ>	<p2><sg>:
+:	<p3><sg>:
+:გვ>	<p1><pl>:
+:გ>	<p2><pl>:>თ
+:	<p3><pl>:>თ
+:მ>	<p1><sg>[-ind,sub]:ს      # sub only
+:გ>	<p2><sg>[-ind,sub]:ს      # sub only
+:	<p3><sg>[-ind,sub]:ს      # sub only
+:გვ>	<p1><pl>[-ind,sub]:ს      # sub only
+
+
+LEXICON V-Suffix-Pres
+<pres><ind>[ind]:
+<impf>[impf]:>დ>ი
+<pres><sub>[sub]:>დე
+
+LEXICON V-Suffix-Fut
+<fut><ind>[ind]:
+<cond>[impf]:>დ>ი
+<fut><sub>[sub]:>დე
+
+LEXICON V-Suffix-Aor
+<aor><ind>[impf]:>ე
+<opt>[ind]:>ო
+
+LEXICON V-Suffix-Perf1
+<perf><ind>[ind]:>ი>ა
+
+LEXICON V-Suffix-Perf2
+<plu>[ind]:>ინ>ა
+<perf><sub>[sub]:>ინ>ო
+
 
 LEXICON Adj-Case
 
@@ -78,7 +141,7 @@ LEXICON N-Postpos
 [nopost]:
 +ზე<post>[dat]:>ზე # "on"
 +თან<post>[dat]:>თან # "near"
-+ვით<post>[dat]:>ავით # "like a"
++ვით<post>[dat]:ა>ვით # "like a"
 +ვით<post>[nom]:>ვით # "like a"
 +თვის<post>[gen]:>თვის # "for"
 +ებრ<post>[gen]:>ებრ # "like a"
@@ -95,10 +158,18 @@ LEXICON N-Num
 ###                          L E X I C O N                                  ###
 ###############################################################################
 
+LEXICON Verbs(4)
+# Preverb	Version	Root	ThematicSuffix
+:ა	:ა	აშენება<v><tv>:შენ	:ებ	# "build"
+
 LEXICON Adjectives
 
 დიდ:დიდ # "big"
 ჭაღარა:ჭაღარა # "grey-haried"
+ახალ:ახალ # "new"
+ქართულ:ქართულ # "Georgian"
+საინტერესო:საინტერესო # "interesting"
+კარგ:კარგ # "good"
 
 LEXICON Nouns
 
