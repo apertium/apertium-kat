@@ -36,21 +36,26 @@ Punctuation
 
 PATTERN NounInfl
 
-Nouns [<n>:] N-Num? N-Case
+Nouns [<n>:] N-Num? (N-Case N-Postpos?)[^[nom,gen]]
 
-ProperNouns(1) [<np>:] ProperNouns(2) N-Num? N-Case
+ProperNouns(1) [<np>:] ProperNouns(2) N-Num? (N-Case N-Postpos?)[^[nom,gen]]
 
 
 LEXICON N-Case
 
-<nom>:>{ი}
+<nom>[nom]:>{ი}
 <erg>:>მ{A}
 <dat>:>ს
-<gen>:>{i}ს
+<gen>[gen]:>{i}ს
 <ins>:>{i}თ{I}
 <advl>:>{ა}დ
 <voc>:>{ო}  # Dir/LR
 <voc>:>{O}
+
+LEXICON N-Postpos
+
++ზე<post>[nom]:>ზე # "on"
++თვის<post>[gen]:>თვის # "for"
 
 LEXICON N-Num
 
