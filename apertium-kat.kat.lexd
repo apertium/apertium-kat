@@ -66,6 +66,8 @@ LEXICON Nouns
 სახლი:სახლ # "home, house, dwelling, house, home, dwelling, room, castle, fortress"
 მამა:მამ{ა} # "father"
 კაცი:კაც # "man, human, courier"
+წელი¹:წ{ე}ლ # "year"
+წელი²:წელ # "waist, intesting"
 
 #### SCRAPED FROM WIKIPEDIA: processed ####
 თვალი:თვალ # "eye"
@@ -85,7 +87,6 @@ LEXICON Nouns
 ხაჭოჲ:ხაჭოჲ # "curd, quark (Tusheti)"
 სვანი:სვან # "person from Svan, Svaneti"
 სინორი:სინორ # "border; sinori (food)"
-წელი:წელ # "waist, year"
 
 
 #### SCRAPED FROM WIKIPEDIA: needs work ####
@@ -3040,7 +3041,6 @@ LEXICON Nouns
 მალამო:მალამო # "unguent"
 მალარია:მალარია # "ague, malaria"
 მალაქიტი:მალაქიტი # "malachite"
-მამა:მამა # "father"
 მამათმავლობა:მამათმავლობა # "homosexuality"
 მამაკაცი:მამაკაცი # "male"
 მამალი:მამალი # "cock, rooster"

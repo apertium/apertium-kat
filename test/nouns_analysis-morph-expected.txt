@@ -1,20 +1,20 @@
 [2S81oIm6UY3S#0] ^კაცმა/კაცი<n><erg>$
 [/2S81oIm6UY3S]
-[2hbN3CfDA0ih#0] ^წელი/წელი<n><nom>/წელი<n><voc>$
+[2hbN3CfDA0ih#0] ^წელი/წელი²<n><nom>/წელი¹<n><nom>$
 [/2hbN3CfDA0ih]
-[3AM-cC2_OKd3#0] ^წლებო/*წლებო$
+[3AM-cC2_OKd3#0] ^წლებო/წელი¹<n><pl><voc>$
 [/3AM-cC2_OKd3]
 [40CCElbyLa-2#0] ^კაცების/კაცი<n><pl><gen>$
 [/40CCElbyLa-2]
-[7TCZ4jvmw8Hb#0] ^წელმა/*წელმა$
+[7TCZ4jvmw8Hb#0] ^წელმა/წელი²<n><erg>/წელი¹<n><erg>$
 [/7TCZ4jvmw8Hb]
-[8hr3J87thcKd#0] ^წელო/*წელო$
+[8hr3J87thcKd#0] ^წელო/წელი²<n><voc>/წელი¹<n><voc>$
 [/8hr3J87thcKd]
 [CKfJFaqx56hN#0] ^კაცს/კაცი<n><dat>$
 [/CKfJFaqx56hN]
 [F-mxLn6X5xqv#0] ^კაცებს/კაცი<n><pl><dat>$
 [/F-mxLn6X5xqv]
-[FXrQl2PdlyDk#0] ^წლებით/*წლებით$
+[FXrQl2PdlyDk#0] ^წლებით/წელი¹<n><pl><ins>$
 [/FXrQl2PdlyDk]
 [GUC4tC5h_-kA#0] ^კაცებმა/კაცი<n><pl><erg>$
 [/GUC4tC5h_-kA]
@@ -24,27 +24,27 @@
 [/KNQFo-lYRmks]
 [OCI6WQXdlLWi#0] ^სახლები/სახლი<n><pl><nom>$
 [/OCI6WQXdlLWi]
-[OXDMPoo_87jX#0] ^წლებს/*წლებს$
+[OXDMPoo_87jX#0] ^წლებს/წელი¹<n><pl><dat>$
 [/OXDMPoo_87jX]
 [TbeM_FV9Ktf1#0] ^კაცით/კაცი<n><ins>$
 [/TbeM_FV9Ktf1]
-[VndbrbwX6z2S#0] ^წელს/*წელს$
+[VndbrbwX6z2S#0] ^წელს/წელი²<n><dat>/წელი¹<n><dat>$
 [/VndbrbwX6z2S]
-[Vw2EyIUbVRiU#0] ^წლები/*წლები$
+[Vw2EyIUbVRiU#0] ^წლები/წელი¹<n><pl><nom>$
 [/Vw2EyIUbVRiU]
 [WYA4yeCJBbqb#0] ^კაცად/კაცი<n><advl>$
 [/WYA4yeCJBbqb]
-[ZCI0L7u5Ch8a#0] ^წლის/*წლის$
+[ZCI0L7u5Ch8a#0] ^წლის/წელი¹<n><gen>$
 [/ZCI0L7u5Ch8a]
 [_c_NM2QxZ2Xf#0] ^კაცებო/კაცი<n><pl><voc>$
 [/_c_NM2QxZ2Xf]
-[dMRWxu3xSMvW#0] ^წლებმა/*წლებმა$
+[dMRWxu3xSMvW#0] ^წლებმა/წელი¹<n><pl><erg>$
 [/dMRWxu3xSMvW]
-[deS_lXvkCYOf#0] ^წლების/*წლების$
+[deS_lXvkCYOf#0] ^წლების/წელი¹<n><pl><gen>$
 [/deS_lXvkCYOf]
-[dqi1WW0B-E73#0] ^წლით/*წლით$
+[dqi1WW0B-E73#0] ^წლით/წელი¹<n><ins>$
 [/dqi1WW0B-E73]
-[fS8KNXshZGPI#0] ^წლებად/*წლებად$
+[fS8KNXshZGPI#0] ^წლებად/წელი¹<n><pl><advl>$
 [/fS8KNXshZGPI]
 [n90vRUNY5qhF#0] ^კაცო/კაცი<n><voc>$
 [/n90vRUNY5qhF]
@@ -52,7 +52,7 @@
 [/p6JIgUsN9RVM]
 [tAqB7Z2Ttlts#0] ^სახლი/სახლი<n><nom>$
 [/tAqB7Z2Ttlts]
-[u6zNqeK_HCPu#0] ^წლად/*წლად$
+[u6zNqeK_HCPu#0] ^წლად/წელი¹<n><advl>$
 [/u6zNqeK_HCPu]
 [v6x7pK1F4KSH#0] ^კაცებად/კაცი<n><pl><advl>$
 [/v6x7pK1F4KSH]

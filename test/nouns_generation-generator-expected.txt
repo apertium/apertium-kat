@@ -2,54 +2,66 @@
 [/-XrPWxdMyBiZ]
 [-Y5cFhr8tS0M#0] კაცები
 [/-Y5cFhr8tS0M]
-[1AdJ_hLwo3TR#0] წელი
-[/1AdJ_hLwo3TR]
-[3-5T3I7Y8RDY#0] წელიებად
-[/3-5T3I7Y8RDY]
 [4FYK1hxdUss3#0] კაცი
 [/4FYK1hxdUss3]
 [4HMVgB1GDiER#0] კაცებო
 [/4HMVgB1GDiER]
-[8AB3OPj4FiHf#0] წელის
-[/8AB3OPj4FiHf]
+[94iwQjoROH5W#0] წლების
+[/94iwQjoROH5W]
+[9bgxsTS2hcOH#0] წლებო
+[/9bgxsTS2hcOH]
+[9l6qh3ArwCcQ#0] წელს
+[/9l6qh3ArwCcQ]
+[Dx75hRG0hmjL#0] წლად
+[/Dx75hRG0hmjL]
 [E_OyFWeuTpJ0#0] მამად
 [/E_OyFWeuTpJ0]
+[Eo1IUYGFHI2T#0] წელი
+[/Eo1IUYGFHI2T]
+[Fz12EA7aPURI#0] წლები
+[/Fz12EA7aPURI]
+[H1mFGkwUGVIx#0] წლებად
+[/H1mFGkwUGVIx]
 [H66CNNjVBui5#0] მამების
 [/H66CNNjVBui5]
 [H6pDUr-_82lB#0] მამებით
 [/H6pDUr-_82lB]
-[IEIqU_ijBDHN#0] წელივ
-[/IEIqU_ijBDHN]
 [JITOdm9OUwpZ#0] კაცის
 [/JITOdm9OUwpZ]
+[KH5qw_jc9rLG#0] წელმა
+[/KH5qw_jc9rLG]
+[KvaVtYaluFAc#0] წლებს
+[/KvaVtYaluFAc]
 [LEEoAg3WAkhy#0] მამამ
 [/LEEoAg3WAkhy]
+[MKRflYBP7FwY#0] წლის
+[/MKRflYBP7FwY]
+[MwIiQO6DqVbD#0] წლებმა
+[/MwIiQO6DqVbD]
 [NKJ4_vPehb-l#0] მამავ
 [/NKJ4_vPehb-l]
 [OuHlxzRs_abB#0] მამის
 [/OuHlxzRs_abB]
 [RKM7V8wd3D3k#0] კაცებმა
 [/RKM7V8wd3D3k]
-[SpQXgAVL1ef-#0] წელიებით
-[/SpQXgAVL1ef-]
 [Srql1HR_xs2u#0] მამებო
 [/Srql1HR_xs2u]
 [TSEz1lIbxsVd#0] კაცით
 [/TSEz1lIbxsVd]
+[TYDXahpQE_tW#0] წლებით
+[/TYDXahpQE_tW]
 [Tu6R2vF5HIje#0] კაცებს
 [/Tu6R2vF5HIje]
 [USLKmbTZzR1O#0] კაცებით
 [/USLKmbTZzR1O]
-[Uqrr40tdqc4g#0] წელიდ
-[/Uqrr40tdqc4g]
+[WSZ6DF_0h05F#0] წლით
+[/WSZ6DF_0h05F]
 [X3WftCxjLAO4#0] მამებად
 [/X3WftCxjLAO4]
 [XNnofKzWMnap#0] საქართველოთი
 [/XNnofKzWMnap]
 [YSA7IZOf1th1#0] კაცებად
 [/YSA7IZOf1th1]
-[_pnwa1HRYhtJ#0] წელიების
-[/_pnwa1HRYhtJ]
 [eL2QqXhjFrxd#0] საქართველოვ
 [/eL2QqXhjFrxd]
 [fIK3IX7EIKZP#0] მამა
@@ -58,16 +70,8 @@
 [/gPb3Q7IcJ226]
 [lu22V0jr_pF3#0] მამებს
 [/lu22V0jr_pF3]
-[mH7eNJqSnUjy#0] წელიმ
-[/mH7eNJqSnUjy]
-[mlcSVqSfoCOC#0] წელიებო
-[/mlcSVqSfoCOC]
-[n4BTgtsAR8ml#0] წელიებს
-[/n4BTgtsAR8ml]
 [nxAv-5pxAscb#0] საქართველო
 [/nxAv-5pxAscb]
-[oYgW1LHpmnKn#0] წელითი
-[/oYgW1LHpmnKn]
 [ooEO0_iNoG7I#0] კაცს
 [/ooEO0_iNoG7I]
 [qIX3ad80qAMK#0] კაცმა
@@ -76,22 +80,18 @@
 [/rlWHkqD0UStb]
 [s6KwG8hc-S2Y#0] კაცად
 [/s6KwG8hc-S2Y]
-[tJuUejAcxF8g#0] წელის
-[/tJuUejAcxF8g]
 [tgJlyPSJAMBk#0] საქართველოდ
 [/tgJlyPSJAMBk]
 [u3PyUpY--Nii#0] კაცების
 [/u3PyUpY--Nii]
+[uBwhhHNo7pkQ#0] წელო
+[/uBwhhHNo7pkQ]
 [uflgVPzZHiQx#0] მამით
 [/uflgVPzZHiQx]
-[vLVC0XpfUkPj#0] წელიებმა
-[/vLVC0XpfUkPj]
 [vapebj71KkDE#0] მამებმა
 [/vapebj71KkDE]
 [wFtUhhgycjQC#0] კაცო
 [/wFtUhhgycjQC]
-[xOeoR41UovRn#0] წელიები
-[/xOeoR41UovRn]
 [yJSW1F_Lfr7t#0] საქართველომ
 [/yJSW1F_Lfr7t]
 [yZXUGJyJ_bEM#0] მამები
