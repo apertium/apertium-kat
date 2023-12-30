@@ -30,42 +30,61 @@
 PATTERNS
 
 NounInfl
+AdjInfl
 Number
 Punctuation
 
 
 PATTERN NounInfl
 
-Nouns [<n>:] N-Num? (N-Case N-Postpos)[^[dat,gen,ins,advl,nopost]]
+Nouns [<n>:] N-Num? (N-Case N-Postpos?)[^[nom,dat,gen,nopost]]
 
-ProperNouns(1) [<np>:] ProperNouns(2) N-Num? (N-Case N-Postpos)[^[dat,gen,ins,advl,nopost]]
+ProperNouns(1) [<np>:] ProperNouns(2) N-Num? (N-Case N-Postpos?)[^[nom,dat,gen,nopost]]
+
+PATTERN AdjInfl
+
+Adjectives [<adj>:] Adj-Case
+
+LEXICON Adj-Case
+
+<nom>:>{ი}
+<erg>:>{მ}{A}
+<dat>:
+<gen>:>{ი}
+<ins>:>{ი}
+<advl>:
+<voc>:>{ო}
 
 
 LEXICON N-Case
 
-<nom>[nopost]:>{ი}
+<nom>[nom]:>{ი}
 <erg>[nopost]:>მ{A}
 <dat>[dat]:>ს
 <gen>[gen]:>{i}ს
-<ins>[ins]:>{i}თ{I}
-<advl>[advl]:>{ა}დ
+<ins>[nopost]:>{i}თ{I}
+<advl>[nopost]:>{ა}დ
 <voc>[nopost]:>{ო}  # Dir/LR
 <voc>[nopost]:>{O}
+
+# Special case-postposition combinations #
+## doing it this way instead of morphophonology because it's simpler
+<dat>+ში<post>[nopost]:>ში # "in, to"
+<ins>+დან<post>[nopost]:>{ი}>დან # "from, since"
+<advl>+მდე<post>[nopost]:>{ა}>მდე # "up to"
 
 LEXICON N-Postpos
 
 [nopost]:
 +ზე<post>[dat]:>ზე # "on"
 +თან<post>[dat]:>თან # "near"
-+ში<post>[dat]:>ში # "in"
-+ვით<post>[dat]:>ვით # "like a"
++ვით<post>[dat]:>ავით # "like a"
++ვით<post>[nom]:>ვით # "like a"
 +თვის<post>[gen]:>თვის # "for"
 +ებრ<post>[gen]:>ებრ # "like a"
 +კენ<post>[gen]:>კენ # "towards"
 +გან<post>[gen]:>გან # "from/of"
 +ურთ<post>[gen]:>ურთ # "together with"
-+დან<post>[ins]:>დან # "from, since"
-+მდე<post>[advl]:>მდე # "up to"
 
 LEXICON N-Num
 
@@ -75,6 +94,11 @@ LEXICON N-Num
 ###############################################################################
 ###                          L E X I C O N                                  ###
 ###############################################################################
+
+LEXICON Adjectives
+
+დიდ:დიდ # "big"
+ჭაღარა:ჭაღარა # "grey-haried"
 
 LEXICON Nouns
 

@@ -11,6 +11,7 @@ Alphabet
  %{ო%}:ო %{ო%}:0 ! ო that deletes after vowels
  %{O%}:ო %{O%}:ვ ! ო that is ვ after vowels
  %{ე%}:ე %{ე%}:0 ! ე that sometiems truncates
+ %{მ%}:ე %{მ%}:0 ! მ that deletes after vowels
  %>:0  ;
 
 Sets
@@ -30,7 +31,7 @@ Rules
 %{i%}:0 <=> [ :Vow - TruncV: ] %>: _ ;
 
 "{A} as 0 after vowel-final stem"
-%{A%}:0 <=> :Vow %>: მ _ ;
+%{A%}:0 <=> :Vow %>: [ მ | %{მ%}: ] _ ;
 
 "{I} as 0 if previous {i} surfaces"
 %{I%}:0 <=> %{i%}:ი თ _ ;
@@ -45,8 +46,11 @@ Rules
 "{O} as ვ after any vowel"
 %{O%}:ვ <=> [ Vow: | TruncV: ] %>: _;
 
-"%{ე%} as 0 before vowel-initial suffix (except nominative and vocative)"
-%{ე%}:0 <=> _ : %>: [ :Vow - [ %{ი%}: | %{O%}: ] ] ;
+"{ე} as 0 before vowel-initial suffix (except nominative and vocative)"
+%{ე%}:0 <=> _ : %>: [ :Vow - [ %{ი%}: | %{O%}: | %{ო%}: ] ] ;
+
+"{მ} as 0 after vowel-final stems"
+%{მ%}:0 <=> Vow: %>: _ ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
