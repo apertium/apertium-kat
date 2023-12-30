@@ -56,7 +56,14 @@ LEXICON N-Postpos
 
 [nopost]:
 +ზე<post>[dat]:>ზე # "on"
++თან<post>[dat]:>თან # "near"
++ში<post>[dat]:>ში # "in"
++ვით<post>[dat]:>ვით # "like a"
 +თვის<post>[gen]:>თვის # "for"
++ებრ<post>[gen]:>ებრ # "like a"
++კენ<post>[gen]:>კენ # "towards"
++გან<post>[gen]:>გან # "from/of"
++ურთ<post>[gen]:>ურთ # "together with"
 +დან<post>[ins]:>დან # "from, since"
 +მდე<post>[advl]:>მდე # "up to"
 
