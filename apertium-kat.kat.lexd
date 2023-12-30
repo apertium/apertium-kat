@@ -63,9 +63,9 @@ LEXICON N-Num
 
 LEXICON Nouns
 
-სახლი:სახლ # "house"
+სახლი:სახლ # "home, house, dwelling, house, home, dwelling, room, castle, fortress"
 მამა:მამ{ა} # "father"
-კაცი:კაც # "man"
+კაცი:კაც # "man, human, courier"
 
 #### SCRAPED FROM WIKIPEDIA: processed ####
 თვალი:თვალ # "eye"
@@ -85,6 +85,7 @@ LEXICON Nouns
 ხაჭოჲ:ხაჭოჲ # "curd, quark (Tusheti)"
 სვანი:სვან # "person from Svan, Svaneti"
 სინორი:სინორ # "border; sinori (food)"
+წელი:წელ # "waist, year"
 
 
 #### SCRAPED FROM WIKIPEDIA: needs work ####
@@ -2442,7 +2443,6 @@ LEXICON Nouns
 კაქტუსი:კაქტუსი # "cactus"
 კაშნე:კაშნე # "muffler, scarf"
 კაშხალი:კაშხალი # "barrage, weir"
-კაცი:კაცი # "man, human, courier"
 კაცობრიობა:კაცობრიობა # "humanity, humankind"
 კაცუნა:კაცუნა # "underling"
 კაჭკაჭი:კაჭკაჭი # "magpie, pie"
@@ -5079,7 +5079,6 @@ LEXICON Nouns
 სახიობა:სახიობა # "spectacle, show, performance"
 სახიჩრობა:სახიჩრობა # "mutilation"
 სახლაკი:სახლაკი # "ka|სახლი:"
-სახლი:სახლი # "home, house, dwelling, house, home, dwelling, room, castle, fortress"
 სახნისი:სახნისი # "coulter, ploughshare"
 სახრახნისი:სახრახნისი # "screwdriver"
 სახრჩობელა:სახრჩობელა # "gallows, gibbet"
@@ -6988,7 +6987,6 @@ LEXICON Nouns
 წებოვნება:წებოვნება # "viscosity"
 წევრი:წევრი # "member"
 წევრობა:წევრობა # "fellowship, membership"
-წელი:წელი # "waist, year"
 წელიწადი:წელიწადი # "ka|წელი:"
 წერა:წერა # "ka|წერს:, ka|სწერს:, ka|იწერს:, ka|უწერს:, ka|იწერება:, ka|ეწერება:, ka|წერია:, ka|აწერია:, ka|უწერია:"
 წერაქვი:წერაქვი # "pickaxe"
