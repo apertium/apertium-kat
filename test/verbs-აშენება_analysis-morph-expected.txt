@@ -1,0 +1,34 @@
+[7bOZzqZIsuwK#0] ^აშენებენ/აშენება<v><tv><pres><ind><p3><pl>$
+[/7bOZzqZIsuwK]
+[7reaNQiCdmGS#0] ^აშენებდე/აშენება<v><tv><pres><sub><p2><sg>$
+[/7reaNQiCdmGS]
+[AJ9AkzTD5Qrq#0] ^აშენებს/აშენება<v><tv><pres><ind><p3><sg>$
+[/AJ9AkzTD5Qrq]
+[EyASASyokZ7g#0] ^ვაშენებთ/აშენება<v><tv><pres><ind><p1><pl>$
+[/EyASASyokZ7g]
+[HXqs0JgM5uT8#0] ^ვაშენებდეთ/აშენება<v><tv><pres><sub><p1><pl>$
+[/HXqs0JgM5uT8]
+[Ku0rSlnsjNxE#0] ^აშენებდეთ/აშენება<v><tv><pres><sub><p2><pl>$
+[/Ku0rSlnsjNxE]
+[OKZePHR4I30Q#0] ^ვაშენებ/აშენება<v><tv><pres><ind><p1><sg>$
+[/OKZePHR4I30Q]
+[RDWUlFqr6o2o#0] ^აშენებ/აშენება<v><tv><pres><ind><p2><sg>$
+[/RDWUlFqr6o2o]
+[SFltFB3aNKAv#0] ^აშენებდით/აშენება<v><tv><impf><p2><pl>$
+[/SFltFB3aNKAv]
+[UFVjhB1NLy5L#0] ^აშენებდნენ/*აშენებდნენ$
+[/UFVjhB1NLy5L]
+[UZi4NU_HHthw#0] ^ვაშენებდი/აშენება<v><tv><impf><p1><sg>$
+[/UZi4NU_HHthw]
+[VCg1IA4T-6mF#0] ^ვაშენებდე/აშენება<v><tv><pres><sub><p1><sg>$
+[/VCg1IA4T-6mF]
+[lR9hHjvVFEjX#0] ^აშენებდეს/აშენება<v><tv><pres><sub><p3><sg>$
+[/lR9hHjvVFEjX]
+[ufQnVQW0jSRf#0] ^აშენებდი/აშენება<v><tv><impf><p2><sg>/აშენება<v><tv><impf><p3><sg>$
+[/ufQnVQW0jSRf]
+[vGPV48J2PQs6#0] ^ვაშენებდით/აშენება<v><tv><impf><p1><pl>$
+[/vGPV48J2PQs6]
+[xlUQbMoa9guH#0] ^აშენებდა/*აშენებდა$
+[/xlUQbMoa9guH]
+[xxdaUKvJVbL7#0] ^აშენებთ/აშენება<v><tv><pres><ind><p2><pl>$
+[/xxdaUKvJVbL7]
