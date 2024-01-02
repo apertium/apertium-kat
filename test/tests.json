@@ -10,5 +10,10 @@
     "verbs-აშენება_analysis": {
         "input": "verbs-აშენება_analysis-input.txt",
         "mode": "kat-morph"
+    },
+    "verbs-აშენება_generation": {
+        "input": "verbs-აშენება_generation-input.txt",
+        "mode": "kat-gener"
     }
+
 }
