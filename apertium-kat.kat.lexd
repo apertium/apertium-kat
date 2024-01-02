@@ -68,7 +68,7 @@ LEXICON V-Person(2)[subj]  # everything is ind, sub, & impf except for 4 rows
 :	<p2><sg>:
 [ind]:	[ind]<p3><sg>:>ს          # ind,sub only
 [sub]:	[sub]<p3><sg>:>ს          # ind,sub only
-[impf]:	[impf]<p3><sg>:               # impf only
+[impf]:	[impf]<p3><sg>:ა               # impf only
 :ვ>	<p1><pl>:>თ
 :	<p2><pl>:>თ
 [ind]:	[ind]<p3><pl>:>ენ             # ind only

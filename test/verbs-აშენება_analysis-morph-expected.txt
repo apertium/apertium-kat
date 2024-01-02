@@ -24,7 +24,7 @@
 [/VCg1IA4T-6mF]
 [lR9hHjvVFEjX#0] ^აშენებდეს/აშენება<v><tv><pres><sub><p3><sg>$
 [/lR9hHjvVFEjX]
-[ufQnVQW0jSRf#0] ^აშენებდი/აშენება<v><tv><impf><p2><sg>/აშენება<v><tv><impf><p3><sg>$
+[ufQnVQW0jSRf#0] ^აშენებდი/აშენება<v><tv><impf><p2><sg>$
 [/ufQnVQW0jSRf]
 [vGPV48J2PQs6#0] ^ვაშენებდით/აშენება<v><tv><impf><p1><pl>$
 [/vGPV48J2PQs6]
