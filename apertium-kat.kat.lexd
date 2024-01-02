@@ -64,27 +64,28 @@ PATTERN VerbInfl
 (Verbs(1) V-Person(1)[obj] [ე:] Verbs(3) Verbs(4) V-Suffix-Perf2 V-Person(2)[obj])[^[ind,sub]]
 
 LEXICON V-Person(2)[subj]  # everything is ind, sub, & impf except for 4 rows
-:ვ>[ind,impf,sub]	<p1><sg>[ind,impf,sub]:
-:[ind,impf,sub]	<p2><sg>[ind,impf,sub]:
-:[ind,sub]	<p3><sg>[ind,sub]:>ს          # ind,sub only
-:[impf]	<p3><sg>[impf]:               # impf only
-:ვ>[ind,impf,sub]	<p1><pl>[ind,impf,sub]:>თ
-:[ind,impf,sub]	<p2><pl>[ind,impf,sub]:>თ
-:[ind]	<p3><pl>[ind]:>ენ             # ind only
-:[impf,sub]	<p3><pl>[impf,sub]:>ნენ       # impf,sub only
+:ვ>	<p1><sg>:
+:	<p2><sg>:
+[ind]:	[ind]<p3><sg>:>ს          # ind,sub only
+[sub]:	[sub]<p3><sg>:>ს          # ind,sub only
+[impf]:	[impf]<p3><sg>:               # impf only
+:ვ>	<p1><pl>:>თ
+:	<p2><pl>:>თ
+[ind]:	[ind]<p3><pl>:>ენ             # ind only
+[impf]:	[impf]<p3><pl>:>ნენ       # impf,sub only
+[sub]:	[sub]<p3><pl>:>ნენ       # impf,sub only
 
-LEXICON V-Person(2)[obj,ind]  # everything is ind & sub except last 4
-:მ>	<p1><sg>:
-:გ>	<p2><sg>:
-:	<p3><sg>:
-:გვ>	<p1><pl>:
+LEXICON V-Person(2)[obj]  # everything is ind & sub except last 4
+[ind]:მ>	[ind]<p1><sg>:
+[sub]:მ>	[sub]<p1><sg>:ს      # sub only
+[ind]:გ>	[ind]<p2><sg>:
+[sub]:გ>	[sub]<p2><sg>:ს      # sub only
+[ind]:	[ind]<p3><sg>:
+[sub]:	[sub]<p3><sg>:ს      # sub only
+[ind]:გვ>	[ind]<p1><pl>:
+[sub]:გვ>	[sub]<p1><pl>:ს      # sub only
 :გ>	<p2><pl>:>თ
 :	<p3><pl>:>თ
-:მ>[-ind,sub]	<p1><sg>[-ind,sub]:ს      # sub only
-:გ>[-ind,sub]	<p2><sg>[-ind,sub]:ს      # sub only
-:[-ind,sub]	<p3><sg>[-ind,sub]:ს      # sub only
-:გვ>[-ind,sub]	<p1><pl>[-ind,sub]:ს      # sub only
-
 
 LEXICON V-Suffix-Pres
 <pres><ind>[ind]:
