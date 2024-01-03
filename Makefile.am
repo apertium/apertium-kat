@@ -2,8 +2,6 @@
 ## Makefile for apertium-kat
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
 LANG1=kat
 BASENAME=apertium-$(LANG1)
 
@@ -15,8 +13,9 @@ TARGETS_COMMON =			\
 	$(LANG1).autogen.bin		\
 	$(LANG1).autogen.att.gz		\
 	$(LANG1).autopgen.bin		\
-	$(LANG1).prob                   \
-	$(LANG1).rlx.bin
+	$(LANG1).prob               \
+	$(LANG1).rlx.bin            \
+	lint
 
 if ENABLE_SPELLER
 TARGETS_COMMON += $(LANG1).zhfst
@@ -25,7 +24,10 @@ endif
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
 
+.PHONY: lint
 
+lint:
+	apertium-lint
 
 ###############################################################################
 ## Georgian transducer
