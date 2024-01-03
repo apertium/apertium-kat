@@ -56,12 +56,12 @@ PATTERN VerbInfl
 # Present series
 (V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Pres V-Person(2)[subj])[^[impf,ind,sub,aor]]
 # Future series
-(Verbs(1) V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Fut V-Person(2)[subj])[^[impf,ind,sub,aor]]
+(Verbs(1) [:>] V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Fut V-Person(2)[subj])[^[impf,ind,sub,aor]]
 # Aorist Series
-(Verbs(1) V-Person(1)[subj] Verbs(2) Verbs(3) V-Suffix-Aor V-Person(2)[subj])[^[impf,ind,sub,aor]]
+(Verbs(1) [:>] V-Person(1)[subj] Verbs(2) Verbs(3) V-Suffix-Aor V-Person(2)[subj])[^[impf,ind,sub,aor]]
 # Perfective series
-(Verbs(1) V-Person(1)[obj] [:{ი}] Verbs(3) Verbs(4) V-Suffix-Perf1 V-Person(2)[obj])[^[ind,sub]]
-(Verbs(1) V-Person(1)[obj] [:ე] Verbs(3) Verbs(4) V-Suffix-Perf2 V-Person(2)[obj])[^[ind,sub]]
+(Verbs(1) [:>] V-Person(1)[obj] [:{ი}] Verbs(3) Verbs(4) V-Suffix-Perf1 V-Person(2)[obj])[^[ind,sub]]
+(Verbs(1) [:>] V-Person(1)[obj] [:ე] Verbs(3) Verbs(4) V-Suffix-Perf2 V-Person(2)[obj])[^[ind,sub]]
 
 LEXICON V-Person(2)[subj]
 [ind]:ვ>	[ind]<p1><sg>:

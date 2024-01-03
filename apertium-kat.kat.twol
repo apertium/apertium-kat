@@ -57,8 +57,8 @@ Rules
 "{e} as 0 after vowels"
 %{e%}:0 <=> [ Vow: | TruncV: ] %>: _ ;
 
-"{w} as უ before ი:0"
-%{w%}:უ <=> _ %>: ი: ;
+"{w} as უ before {ი}:0"
+%{w%}:უ <=> _ %>: %{ი%}: ;
 
 
 

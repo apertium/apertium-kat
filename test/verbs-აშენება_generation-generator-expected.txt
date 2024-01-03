@@ -56,7 +56,7 @@
 [/QLABd0UhCOOF]
 [THDFgR4TsX0p#0] ააშენებდი
 [/THDFgR4TsX0p]
-[TzACJ3iUapxJ#0] აშენებია
+[TzACJ3iUapxJ#0] აუშენებია
 [/TzACJ3iUapxJ]
 [U3pL4HTCbWqc#0] აშენებდნენ
 [/U3pL4HTCbWqc]
@@ -66,7 +66,7 @@
 [/UTyuQIVoSbWC]
 [VF_qIeTMhEJr#0] ვაშენებდეთ
 [/VF_qIeTMhEJr]
-[VRXVojHK9MqA#0] აშენებიათ
+[VRXVojHK9MqA#0] აუშენებიათ
 [/VRXVojHK9MqA]
 [Ve961-JUlaSC#0] აეშენებინათ
 [/Ve961-JUlaSC]
