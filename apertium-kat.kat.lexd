@@ -102,8 +102,8 @@ LEXICON V-Suffix-Pres
 
 LEXICON V-Suffix-Fut
 <fut><ind>[ind]:
-<cond>[impf]:>დ>ი
-<fut><sub>[sub]:>დე
+<cond>[impf]:>დ
+<fut><sub>[sub]:>დ
 
 LEXICON V-Suffix-Aor
 <aor><ind>[impf]:>ე

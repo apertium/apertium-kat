@@ -1,10 +1,10 @@
-[-nGCmYd5Pvhg#0] ააშენებდეე
+[-nGCmYd5Pvhg#0] ააშენებდე
 [/-nGCmYd5Pvhg]
-[1IOoQi_WyXOz#0] ავაშენებდეეთ
+[1IOoQi_WyXOz#0] ავაშენებდეთ
 [/1IOoQi_WyXOz]
 [2S473A2utoOY#0] ვაშენებდი
 [/2S473A2utoOY]
-[2mK2HhCyYBY4#0] ავაშენებდეე
+[2mK2HhCyYBY4#0] ავაშენებდე
 [/2mK2HhCyYBY4]
 [3GubKDafWUEe#0] აშენებენ
 [/3GubKDafWUEe]
@@ -12,7 +12,7 @@
 [/3sBZ7U6dMye-]
 [4eq835kpPVAP#0] #აშენება
 [/4eq835kpPVAP]
-[4vmI1MAUKCZA#0] ააშენებდეეს
+[4vmI1MAUKCZA#0] ააშენებდეს
 [/4vmI1MAUKCZA]
 [5v7cdA1g3RJu#0] აშენებდეს
 [/5v7cdA1g3RJu]
@@ -34,13 +34,13 @@
 [/DywHDH0Z3A6G]
 [EcytOc7p6dsL#0] #აშენება
 [/EcytOc7p6dsL]
-[Fr0Flhckruht#0] ააშენებდინენ
+[Fr0Flhckruht#0] ააშენებდნენ
 [/Fr0Flhckruht]
 [G_HOPqBfszJG#0] ვაშენებდით
 [/G_HOPqBfszJG]
 [HsL-pgJTkzvO#0] #აშენება
 [/HsL-pgJTkzvO]
-[IHzeF958VQGf#0] ააშენებდენენ
+[IHzeF958VQGf#0] ააშენებდნენ
 [/IHzeF958VQGf]
 [J4aA6jKquF6j#0] ავაშენებ
 [/J4aA6jKquF6j]
@@ -52,9 +52,9 @@
 [/PcM3EADIxnA6]
 [Q5TqvmwaYfhk#0] #აშენება
 [/Q5TqvmwaYfhk]
-[QLABd0UhCOOF#0] ააშენებდეეთ
+[QLABd0UhCOOF#0] ააშენებდეთ
 [/QLABd0UhCOOF]
-[THDFgR4TsX0p#0] ააშენებდიი
+[THDFgR4TsX0p#0] ააშენებდი
 [/THDFgR4TsX0p]
 [TzACJ3iUapxJ#0] #აშენება
 [/TzACJ3iUapxJ]
@@ -76,13 +76,13 @@
 [/WPGGtVTv3jPn]
 [WnbhGI2Huhx7#0] #აშენება
 [/WnbhGI2Huhx7]
-[ZGWsWbORlYZT#0] ავაშენებდიით
+[ZGWsWbORlYZT#0] ავაშენებდით
 [/ZGWsWbORlYZT]
 [_seXn2pxUDQD#0] #აშენება
 [/_seXn2pxUDQD]
 [awMQxSDV7tQB#0] #აშენება
 [/awMQxSDV7tQB]
-[bjTwqbPwwGII#0] ააშენებდია
+[bjTwqbPwwGII#0] ააშენებდა
 [/bjTwqbPwwGII]
 [cZEs6AVD6z5_#0] ააშენებთ
 [/cZEs6AVD6z5_]
@@ -112,7 +112,7 @@
 [/mQ2u4iF4z1rb]
 [oEMQ9-GW1dU9#0] #აშენება
 [/oEMQ9-GW1dU9]
-[rs76EVvDUpoz#0] ავაშენებდიი
+[rs76EVvDUpoz#0] ავაშენებდი
 [/rs76EVvDUpoz]
 [s93-ZwevqiMT#0] ავაშენო
 [/s93-ZwevqiMT]
@@ -128,5 +128,5 @@
 [/zN15iu9KccU1]
 [zUIVmpnAKz6S#0] აშენებდა
 [/zUIVmpnAKz6S]
-[zWzxR5WlkbKD#0] ააშენებდიით
+[zWzxR5WlkbKD#0] ააშენებდით
 [/zWzxR5WlkbKD]
