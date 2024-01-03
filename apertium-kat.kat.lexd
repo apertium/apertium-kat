@@ -54,46 +54,59 @@ PATTERN VerbInfl
 #(V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Pres V-Person(2)[subj])[^[impf,ind,sub]]
 #(V-Person(1) Verbs(2) Verbs(3) Verbs(4) V-Suffix-Pres V-Person(2))[^[impf,ind,sub],^[subj,obj]]
 # Present series
-(V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Pres V-Person(2)[subj])[^[impf,ind,sub]]
+(V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Pres V-Person(2)[subj])[^[impf,ind,sub,aor]]
 # Future series
-(Verbs(1) V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Fut V-Person(2)[subj])[^[impf,ind,sub]]
+(Verbs(1) V-Person(1)[subj] Verbs(2) Verbs(3) Verbs(4) V-Suffix-Fut V-Person(2)[subj])[^[impf,ind,sub,aor]]
 # Aorist Series
-(Verbs(1) V-Person(1)[subj] Verbs(2) Verbs(3) V-Suffix-Aor V-Person(2)[subj])[^[impf,ind,sub]]
+(Verbs(1) V-Person(1)[subj] Verbs(2) Verbs(3) V-Suffix-Aor V-Person(2)[subj])[^[impf,ind,sub,aor]]
 # Perfective series
 (Verbs(1) V-Person(1)[obj] [ი:] Verbs(3) Verbs(4) V-Suffix-Perf1 V-Person(2)[obj])[^[ind,sub]]
 (Verbs(1) V-Person(1)[obj] [ე:] Verbs(3) Verbs(4) V-Suffix-Perf2 V-Person(2)[obj])[^[ind,sub]]
 
-LEXICON V-Person(2)[subj]  # everything is ind, sub, & impf except for 4 rows
-[ind]:ვ>	<p1><sg>:
-[impf]:ვ>	<p1><sg>:>ი
-[sub]:ვ>	<p1><sg>:ე
+LEXICON V-Person(2)[subj]
+[ind]:ვ>	[ind]<p1><sg>:
+[impf]:ვ>	[impf]<p1><sg>:>ი
+[sub]:ვ>	[sub]<p1><sg>:ე
+[aor]:ვ>	[aor]<p1><sg>:ე
+
 [ind]:	[ind]<p2><sg>:
 [impf]:	[impf]<p2><sg>:>ი
 [sub]:	[sub]<p2><sg>:ე
-[ind]:	[ind]<p3><sg>:>ს          # ind,sub only
-[impf]:	[impf]<p3><sg>:>ა               # impf only
-[sub]:	[sub]<p3><sg>:>ეს          # ind,sub only
+[aor]:	[aor]<p2><sg>:ე
+
+[ind]:	[ind]<p3><sg>:>ს
+[impf]:	[impf]<p3><sg>:>ა               # impf,aor
+[aor]:	[aor]<p3><sg>:>ა               # impf,aor
+[sub]:	[sub]<p3><sg>:>ეს
+
 [ind]:ვ>	[ind]<p1><pl>:>თ
 [impf]:ვ>	[impf]<p1><pl>:>ით
 [sub]:ვ>	[sub]<p1><pl>:>ეთ
+[aor]:ვ>	[aor]<p1><pl>:>ეთ
+
 [ind]:	[ind]<p2><pl>:>თ
 [impf]:	[impf]<p2><pl>:>ით
 [sub]:	[sub]<p2><pl>:>ეთ
-[ind]:	[ind]<p3><pl>:>ენ             # ind only
+[aor]:	[aor]<p2><pl>:>ეთ
+
+[ind]:	[ind]<p3><pl>:>{e}ნ             # ind only
 [impf]:	[impf]<p3><pl>:>ნენ       # impf,sub only
 [sub]:	[sub]<p3><pl>:>ნენ       # impf,sub only
+[aor]:	[aor]<p3><pl>:>ეს             # aor only
 
 LEXICON V-Person(2)[obj]  # everything is ind & sub except last 4
 [ind]:მ>	[ind]<p1><sg>:
-[sub]:მ>	[sub]<p1><sg>:ს      # sub only
+[sub]:მ>	[sub]<p1><sg>:>ს      # sub only
 [ind]:გ>	[ind]<p2><sg>:
-[sub]:გ>	[sub]<p2><sg>:ს      # sub only
+[sub]:გ>	[sub]<p2><sg>:>ს      # sub only
 [ind]:	[ind]<p3><sg>:
-[sub]:	[sub]<p3><sg>:ს      # sub only
+[sub]:	[sub]<p3><sg>:>ს      # sub only
 [ind]:გვ>	[ind]<p1><pl>:
-[sub]:გვ>	[sub]<p1><pl>:ს      # sub only
-:გ>	<p2><pl>:>თ
-:	<p3><pl>:>თ
+[sub]:გვ>	[sub]<p1><pl>:>ს      # sub only
+[ind]:გ>	[ind]<p2><pl>:>თ
+[sub]:გ>	[sub]<p2><pl>:>თ
+[ind]:	[ind]<p3><pl>:>თ
+[sub]:	[sub]<p3><pl>:>თ
 
 LEXICON V-Suffix-Pres
 <pres><ind>[ind]:
@@ -106,7 +119,7 @@ LEXICON V-Suffix-Fut
 <fut><sub>[sub]:>დ
 
 LEXICON V-Suffix-Aor
-<aor><ind>[impf]:>ე
+<aor><ind>[aor]:
 <opt>[ind]:>ო
 
 LEXICON V-Suffix-Perf1

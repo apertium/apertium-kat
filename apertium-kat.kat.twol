@@ -10,7 +10,8 @@ Alphabet
  %{ა%}:ა %{ა%}:0 ! ა that deletes after vowels / truncating ა
  %{ო%}:ო %{ო%}:0 ! ო that deletes after vowels
  %{O%}:ო %{O%}:ვ ! ო that is ვ after vowels
- %{ე%}:ე %{ე%}:0 ! ე that sometiems truncates
+ %{ე%}:ე %{ე%}:0 ! ე that truncates if following consonant can syllabify as new syllable
+ %{e%}:ე %{e%}:0 ! ე that deletes after vowels
  %{მ%}:ე %{მ%}:0 ! მ that deletes after vowels
  %>:0  ;
 
@@ -51,6 +52,10 @@ Rules
 
 "{მ} as 0 after vowel-final stems"
 %{მ%}:0 <=> Vow: %>: _ ;
+
+"{e} as 0 after vowels"
+%{e%}:0 <=> [ Vow: | TruncV: ] %>: _ ;
+
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
