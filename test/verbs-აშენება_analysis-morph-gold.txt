@@ -26,7 +26,7 @@
 ^აშენებდით/აშენება<v><tv><impf><p2><pl>$ [/option]
 [/SFltFB3aNKAv]
 [UFVjhB1NLy5L]
-^აშენებდნენ/აშენება<v><tv><pres><sub><p3><pl>$ [/option]
+^აშენებდნენ/აშენება<v><tv><pres><sub><p3><pl>/აშენება<v><tv><impf><p3><pl>$ [/option]
 [/UFVjhB1NLy5L]
 [UZi4NU_HHthw]
 ^ვაშენებდი/აშენება<v><tv><impf><p1><sg>$ [/option]

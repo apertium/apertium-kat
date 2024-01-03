@@ -64,13 +64,21 @@ PATTERN VerbInfl
 (Verbs(1) V-Person(1)[obj] [ე:] Verbs(3) Verbs(4) V-Suffix-Perf2 V-Person(2)[obj])[^[ind,sub]]
 
 LEXICON V-Person(2)[subj]  # everything is ind, sub, & impf except for 4 rows
-:ვ>	<p1><sg>:
-:	<p2><sg>:
+[ind]:ვ>	<p1><sg>:
+[impf]:ვ>	<p1><sg>:>ი
+[sub]:ვ>	<p1><sg>:ე
+[ind]:	[ind]<p2><sg>:
+[impf]:	[impf]<p2><sg>:>ი
+[sub]:	[sub]<p2><sg>:ე
 [ind]:	[ind]<p3><sg>:>ს          # ind,sub only
-[sub]:	[sub]<p3><sg>:>ს          # ind,sub only
-[impf]:	[impf]<p3><sg>:ა               # impf only
-:ვ>	<p1><pl>:>თ
-:	<p2><pl>:>თ
+[impf]:	[impf]<p3><sg>:>ა               # impf only
+[sub]:	[sub]<p3><sg>:>ეს          # ind,sub only
+[ind]:ვ>	[ind]<p1><pl>:>თ
+[impf]:ვ>	[impf]<p1><pl>:>ით
+[sub]:ვ>	[sub]<p1><pl>:>ეთ
+[ind]:	[ind]<p2><pl>:>თ
+[impf]:	[impf]<p2><pl>:>ით
+[sub]:	[sub]<p2><pl>:>ეთ
 [ind]:	[ind]<p3><pl>:>ენ             # ind only
 [impf]:	[impf]<p3><pl>:>ნენ       # impf,sub only
 [sub]:	[sub]<p3><pl>:>ნენ       # impf,sub only
@@ -89,8 +97,8 @@ LEXICON V-Person(2)[obj]  # everything is ind & sub except last 4
 
 LEXICON V-Suffix-Pres
 <pres><ind>[ind]:
-<impf>[impf]:>დ>ი
-<pres><sub>[sub]:>დე
+<impf>[impf]:>დ
+<pres><sub>[sub]:>დ
 
 LEXICON V-Suffix-Fut
 <fut><ind>[ind]:

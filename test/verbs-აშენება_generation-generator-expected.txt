@@ -12,13 +12,13 @@
 [/9_v-0oNSlZyj]
 [9g_uSBiOV-Ao#0] აშენებს
 [/9g_uSBiOV-Ao]
-[DywHDH0Z3A6G#0] აშენებდინენ
+[DywHDH0Z3A6G#0] აშენებდნენ
 [/DywHDH0Z3A6G]
 [G_HOPqBfszJG#0] ვაშენებდით
 [/G_HOPqBfszJG]
 [PT08u6HWEc6a#0] აშენებთ
 [/PT08u6HWEc6a]
-[U3pL4HTCbWqc#0] აშენებდენენ
+[U3pL4HTCbWqc#0] აშენებდნენ
 [/U3pL4HTCbWqc]
 [VF_qIeTMhEJr#0] ვაშენებდეთ
 [/VF_qIeTMhEJr]
@@ -32,5 +32,5 @@
 [/lsvq6M0nGz6g]
 [wjq9nDJplLyb#0] ვაშენებთ
 [/wjq9nDJplLyb]
-[zUIVmpnAKz6S#0] აშენებდია
+[zUIVmpnAKz6S#0] აშენებდა
 [/zUIVmpnAKz6S]

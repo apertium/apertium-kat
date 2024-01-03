@@ -16,7 +16,7 @@
 [/RDWUlFqr6o2o]
 [SFltFB3aNKAv#0] ^აშენებდით/აშენება<v><tv><impf><p2><pl>$
 [/SFltFB3aNKAv]
-[UFVjhB1NLy5L#0] ^აშენებდნენ/*აშენებდნენ$
+[UFVjhB1NLy5L#0] ^აშენებდნენ/აშენება<v><tv><pres><sub><p3><pl>/აშენება<v><tv><impf><p3><pl>$
 [/UFVjhB1NLy5L]
 [UZi4NU_HHthw#0] ^ვაშენებდი/აშენება<v><tv><impf><p1><sg>$
 [/UZi4NU_HHthw]
@@ -28,7 +28,7 @@
 [/ufQnVQW0jSRf]
 [vGPV48J2PQs6#0] ^ვაშენებდით/აშენება<v><tv><impf><p1><pl>$
 [/vGPV48J2PQs6]
-[xlUQbMoa9guH#0] ^აშენებდა/*აშენებდა$
+[xlUQbMoa9guH#0] ^აშენებდა/აშენება<v><tv><impf><p3><sg>$
 [/xlUQbMoa9guH]
 [xxdaUKvJVbL7#0] ^აშენებთ/აშენება<v><tv><pres><ind><p2><pl>$
 [/xxdaUKvJVbL7]
