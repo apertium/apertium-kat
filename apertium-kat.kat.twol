@@ -13,6 +13,7 @@ Alphabet
  %{ე%}:ე %{ე%}:0 ! ე that truncates if following consonant can syllabify as new syllable
  %{e%}:ე %{e%}:0 ! ე that deletes after vowels
  %{მ%}:ე %{მ%}:0 ! მ that deletes after vowels
+ %{w%}:უ %{w%}:0 ! usually realised as 0, but before version vowel {ი} realised as უ and causes version {ი} to delete (e.g., interaction between 3rd person morphology and version vowel in Perfective series verbs)
  %>:0  ;
 
 Sets
@@ -25,8 +26,8 @@ VNoDelAfterTrunc = %{i%} ;
 
 Rules
 
-"{ი} as 0 after vowels"
-%{ი%}:0 <=> [ Vow: | TruncV: ] %>: _ ;
+"{ი} as 0 after vowels and {w}"
+%{ი%}:0 <=> [ Vow: | TruncV: | %{w%}: ] %>: _ ;
 
 "{i} as 0 after non-truncating vowels"
 %{i%}:0 <=> [ :Vow - TruncV: ] %>: _ ;
@@ -55,6 +56,10 @@ Rules
 
 "{e} as 0 after vowels"
 %{e%}:0 <=> [ Vow: | TruncV: ] %>: _ ;
+
+"{w} as უ before ი:0"
+%{w%}:უ <=> _ %>: ი: ;
+
 
 
 ! Resources:

@@ -60,8 +60,8 @@ PATTERN VerbInfl
 # Aorist Series
 (Verbs(1) V-Person(1)[subj] Verbs(2) Verbs(3) V-Suffix-Aor V-Person(2)[subj])[^[impf,ind,sub,aor]]
 # Perfective series
-(Verbs(1) V-Person(1)[obj] [ი:] Verbs(3) Verbs(4) V-Suffix-Perf1 V-Person(2)[obj])[^[ind,sub]]
-(Verbs(1) V-Person(1)[obj] [ე:] Verbs(3) Verbs(4) V-Suffix-Perf2 V-Person(2)[obj])[^[ind,sub]]
+(Verbs(1) V-Person(1)[obj] [:{ი}] Verbs(3) Verbs(4) V-Suffix-Perf1 V-Person(2)[obj])[^[ind,sub]]
+(Verbs(1) V-Person(1)[obj] [:ე] Verbs(3) Verbs(4) V-Suffix-Perf2 V-Person(2)[obj])[^[ind,sub]]
 
 LEXICON V-Person(2)[subj]
 [ind]:ვ>	[ind]<p1><sg>:
@@ -99,13 +99,13 @@ LEXICON V-Person(2)[obj]  # everything is ind & sub except last 4
 [sub]:მ>	[sub]<p1><sg>:>ს      # sub only
 [ind]:გ>	[ind]<p2><sg>:
 [sub]:გ>	[sub]<p2><sg>:>ს      # sub only
-[ind]:	[ind]<p3><sg>:
+[ind]:{w}>	[ind]<p3><sg>:
 [sub]:	[sub]<p3><sg>:>ს      # sub only
 [ind]:გვ>	[ind]<p1><pl>:
 [sub]:გვ>	[sub]<p1><pl>:>ს      # sub only
 [ind]:გ>	[ind]<p2><pl>:>თ
 [sub]:გ>	[sub]<p2><pl>:>თ
-[ind]:	[ind]<p3><pl>:>თ
+[ind]:{w}>	[ind]<p3><pl>:>თ
 [sub]:	[sub]<p3><pl>:>თ
 
 LEXICON V-Suffix-Pres

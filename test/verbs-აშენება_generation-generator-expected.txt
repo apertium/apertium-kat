@@ -10,13 +10,13 @@
 [/3GubKDafWUEe]
 [3sBZ7U6dMye-#0] ააშენოს
 [/3sBZ7U6dMye-]
-[4eq835kpPVAP#0] #აშენება
+[4eq835kpPVAP#0] აეშენებინა
 [/4eq835kpPVAP]
 [4vmI1MAUKCZA#0] ააშენებდეს
 [/4vmI1MAUKCZA]
 [5v7cdA1g3RJu#0] აშენებდეს
 [/5v7cdA1g3RJu]
-[6TYdRREH4PQg#0] #აშენება
+[6TYdRREH4PQg#0] აგიშენებია
 [/6TYdRREH4PQg]
 [74JierP3g9sO#0] აშენებდე
 [/74JierP3g9sO]
@@ -28,17 +28,17 @@
 [/9_v-0oNSlZyj]
 [9g_uSBiOV-Ao#0] აშენებს
 [/9g_uSBiOV-Ao]
-[CB7vpkjRkE8T#0] #აშენება
+[CB7vpkjRkE8T#0] აეშენებინოს
 [/CB7vpkjRkE8T]
 [DywHDH0Z3A6G#0] აშენებდნენ
 [/DywHDH0Z3A6G]
-[EcytOc7p6dsL#0] #აშენება
+[EcytOc7p6dsL#0] აგეშენებინოთ
 [/EcytOc7p6dsL]
 [Fr0Flhckruht#0] ააშენებდნენ
 [/Fr0Flhckruht]
 [G_HOPqBfszJG#0] ვაშენებდით
 [/G_HOPqBfszJG]
-[HsL-pgJTkzvO#0] #აშენება
+[HsL-pgJTkzvO#0] აგიშენებიათ
 [/HsL-pgJTkzvO]
 [IHzeF958VQGf#0] ააშენებდნენ
 [/IHzeF958VQGf]
@@ -48,15 +48,15 @@
 [/OQK9OOEwx0wp]
 [PT08u6HWEc6a#0] აშენებთ
 [/PT08u6HWEc6a]
-[PcM3EADIxnA6#0] #აშენება
+[PcM3EADIxnA6#0] აგეშენებინოს
 [/PcM3EADIxnA6]
-[Q5TqvmwaYfhk#0] #აშენება
+[Q5TqvmwaYfhk#0] ამიშენებია
 [/Q5TqvmwaYfhk]
 [QLABd0UhCOOF#0] ააშენებდეთ
 [/QLABd0UhCOOF]
 [THDFgR4TsX0p#0] ააშენებდი
 [/THDFgR4TsX0p]
-[TzACJ3iUapxJ#0] #აშენება
+[TzACJ3iUapxJ#0] აშენებია
 [/TzACJ3iUapxJ]
 [U3pL4HTCbWqc#0] აშენებდნენ
 [/U3pL4HTCbWqc]
@@ -66,21 +66,21 @@
 [/UTyuQIVoSbWC]
 [VF_qIeTMhEJr#0] ვაშენებდეთ
 [/VF_qIeTMhEJr]
-[VRXVojHK9MqA#0] #აშენება
+[VRXVojHK9MqA#0] აშენებიათ
 [/VRXVojHK9MqA]
-[Ve961-JUlaSC#0] #აშენება
+[Ve961-JUlaSC#0] აეშენებინათ
 [/Ve961-JUlaSC]
 [WDblBBWB_wVz#0] ააშენეთ
 [/WDblBBWB_wVz]
 [WPGGtVTv3jPn#0] ააშენე
 [/WPGGtVTv3jPn]
-[WnbhGI2Huhx7#0] #აშენება
+[WnbhGI2Huhx7#0] აგეშენებინათ
 [/WnbhGI2Huhx7]
 [ZGWsWbORlYZT#0] ავაშენებდით
 [/ZGWsWbORlYZT]
-[_seXn2pxUDQD#0] #აშენება
+[_seXn2pxUDQD#0] აგვეშენებინოს
 [/_seXn2pxUDQD]
-[awMQxSDV7tQB#0] #აშენება
+[awMQxSDV7tQB#0] აგვეშენებინა
 [/awMQxSDV7tQB]
 [bjTwqbPwwGII#0] ააშენებდა
 [/bjTwqbPwwGII]
@@ -96,7 +96,7 @@
 [/gpZ5ZPCJMnxM]
 [heG5Zxf1Frre#0] ავაშენებთ
 [/heG5Zxf1Frre]
-[i47LEIaoym5N#0] #აშენება
+[i47LEIaoym5N#0] აგეშენებინა
 [/i47LEIaoym5N]
 [ia5Dn0lp8b7P#0] აშენებ
 [/ia5Dn0lp8b7P]
@@ -110,21 +110,21 @@
 [/lsvq6M0nGz6g]
 [mQ2u4iF4z1rb#0] ააშენებენ
 [/mQ2u4iF4z1rb]
-[oEMQ9-GW1dU9#0] #აშენება
+[oEMQ9-GW1dU9#0] ამეშენებინოს
 [/oEMQ9-GW1dU9]
 [rs76EVvDUpoz#0] ავაშენებდი
 [/rs76EVvDUpoz]
 [s93-ZwevqiMT#0] ავაშენო
 [/s93-ZwevqiMT]
-[tR5aDU6D2F9F#0] #აშენება
+[tR5aDU6D2F9F#0] ამეშენებინა
 [/tR5aDU6D2F9F]
-[uPaRDjzd__kO#0] #აშენება
+[uPaRDjzd__kO#0] აეშენებინოთ
 [/uPaRDjzd__kO]
 [wjq9nDJplLyb#0] ვაშენებთ
 [/wjq9nDJplLyb]
 [yRqg_GDbJjZ2#0] ავაშენე
 [/yRqg_GDbJjZ2]
-[zN15iu9KccU1#0] #აშენება
+[zN15iu9KccU1#0] აგვიშენებია
 [/zN15iu9KccU1]
 [zUIVmpnAKz6S#0] აშენებდა
 [/zUIVmpnAKz6S]
