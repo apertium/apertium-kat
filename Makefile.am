@@ -57,27 +57,6 @@ lint:
 .deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexd.hfst .deps/$(LANG1).twol.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexd.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
-## LEXC STUFF
-
-.deps/$(LANG1).RL.lexc: $(BASENAME).$(LANG1).lexc .deps/.d
-	cat $< | grep -v 'Dir/LR' > $@
-
-.deps/$(LANG1).LR.lexc: $(BASENAME).$(LANG1).lexc .deps/.d
-	cat $< | grep -v 'Dir/RL' > $@
-
-.deps/$(LANG1).RL.lexc.hfst: .deps/$(LANG1).RL.lexc
-	hfst-lexc $< -o $@ -v
-
-.deps/$(LANG1).LR.lexc.hfst: .deps/$(LANG1).LR.lexc
-	hfst-lexc $< -o $@ -v
-
-# FOR LEXC
-#.deps/$(LANG1).RL.hfst: .deps/$(LANG1).RL.lexc.hfst .deps/$(LANG1).twol.hfst
-#	hfst-compose-intersect -1 .deps/$(LANG1).RL.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
-#
-#.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).twol.hfst
-#	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
-
 $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
 	hfst-fst2fst -O $< -o $@
 
@@ -104,17 +83,6 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 ###############################################################################
 ## Debugging transducers (for testvoc)
 ###############################################################################
-
-# FOR LEXC
-#debug: .deps/$(LANG1).LR-debug.hfst .deps/$(LANG1).lexc.hfst
-#
-#.deps/$(LANG1).LR-debug.hfst: $(BASENAME).$(LANG1).lexc .deps/.d
-#	cat $< | grep -v 'Dir/RL' | grep -v 'Use/Circ' > .deps/$(LANG1).LR-debug.lexc
-#	hfst-lexc .deps/$(LANG1).LR-debug.lexc -o .deps/$(LANG1).LR-debug.lexc.hfst -v
-#	hfst-compose-intersect -1 .deps/$(LANG1).LR-debug.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
-#
-#.deps/$(LANG1).lexc.hfst: .deps/$(LANG1).RL.lexc.hfst
-#	hfst-fst2fst -O -i $< -o $@
 
 debug: .deps/$(LANG1).LR-debug.hfst .deps/$(LANG1).lexd.hfst
 
@@ -182,7 +150,6 @@ $(LANG1).prob: corpus/$(LANG1).tagged
 
 EXTRA_DIST= \
 		$(BASENAME).$(LANG1).lexd	\
-		$(BASENAME).$(LANG1).lexc	\
 		$(BASENAME).$(LANG1).twol	\
 		$(BASENAME).$(LANG1).rlx	\
 		$(BASENAME).post-$(LANG1).dix	\
@@ -213,7 +180,7 @@ noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_kat_srcdir) || mkdir -p $(DESTDIR)$(apertium_kat_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_kat_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexd $(DESTDIR)$(apertium_kat_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_kat_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_kat_srcdir)
 	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_kat_srcdir)
