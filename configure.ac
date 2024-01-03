@@ -11,6 +11,7 @@ PKG_CHECK_MODULES(CG3, cg3 >= 1.4.0)
 PKG_CHECK_MODULES(LEXD, lexd >= 1.3.0)
 
 AC_ARG_ENABLE([speller], AC_HELP_STRING([--enable-speller], [Build spellchecker from morphological analyser]))
+AC_ARG_ENABLE([linter], AC_HELP_STRING([--enable-linter], [Lint files when compiling]))
 
 AM_CONDITIONAL([ENABLE_SPELLER], [test "x$enable_speller" = "xyes"])
 AM_COND_IF([ENABLE_SPELLER], [
@@ -20,6 +21,8 @@ AM_COND_IF([ENABLE_SPELLER], [
 
 PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.9.1, [],
    [AC_MSG_WARN([Running tests requires apertium-regtest])])
+
+AM_CONDITIONAL([ENABLE_LINTER], [test "x$enable_linter" = "xyes"])
 
 AP_MKINCLUDE
 
